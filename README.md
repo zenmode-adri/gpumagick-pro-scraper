@@ -22,6 +22,34 @@ He diseñado y supervisado la construcción de esta herramienta modular asíncro
 - `app.py`: La cara visible. Un dashboard elegante para visualizar el progreso y los resultados.
 - `cli.py`: Versión de línea de comandos para automatización pura.
 
+## 🚀 Guía de Inicio Rápido
+
+### 1. Requisitos Previos
+Asegúrate de tener Python 3.9+ instalado. Clona el repositorio y entra en la carpeta:
+```bash
+git clone https://github.com/zenmode-adri/gpumagick-pro-scraper.git
+cd gpumagick-pro-scraper
+```
+
+### 2. Instalación de Dependencias
+Instala las librerías necesarias:
+```bash
+pip install streamlit pandas plotly aiohttp aiosqlite psutil
+```
+
+### 3. Lanzar la Aplicación
+Ejecuta la interfaz web con Streamlit:
+```bash
+streamlit run app.py
+```
+
+## 📖 Cómo se usa
+
+1.  **Configuración:** En la pestaña **"Extractor"**, introduce la GPU que quieres buscar (ej: `RX 580`) y el rango de IDs.
+2.  **Extracción:** Pulsa **"Ejecutar"**. Verás la telemetría en vivo y cómo se llena la base de datos local `gpumagick.db`.
+3.  **Análisis:** Cambia a la pestaña **"Análisis"** para comparar el rendimiento de diferentes CPUs con esa GPU.
+4.  **Ensambles:** En la pestaña **"Builds"**, introduce los precios de mercado y descubre qué combo ofrece más FPS por cada Euro invertido.
+
 ## 🧠 Reflexión sobre el Proceso
 
 Este proyecto no se trata solo de código; se trata de **orquestación**. He aprendido a guiar a la IA para resolver problemas complejos de concurrencia, diseño de UI y arquitectura de software. Es una demostración de cómo la IA puede empoderar a perfiles técnicos para crear soluciones que antes estaban reservadas para equipos de desarrollo completos.
@@ -31,8 +59,8 @@ Este proyecto no se trata solo de código; se trata de **orquestación**. He apr
 
 ## 📸 Vista Previa del Sistema
 
-| Dashboard Principal | Análisis de Datos | Proceso de Extracción |
+| Dashboard Principal | Análisis de Datos | Ranking de Ensambles (Builds) |
 | :---: | :---: | :---: |
-| ![Main UI](assets/screenshots/shot_final.png) | ![Analysis](assets/screenshots/shot_analysis.png) | ![Scraper](assets/screenshots/shot_scraping.png) |
+| ![Main UI](assets/screenshots/shot_final.png) | ![Analysis](assets/screenshots/shot_analysis.png) | ![Builds](assets/screenshots/shot_builds.png) |
 
 > *Nota: La estética del sistema está inspirada en terminales de alta fidelidad y dashboards de monitoreo profesional.*
