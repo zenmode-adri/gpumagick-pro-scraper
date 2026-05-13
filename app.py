@@ -127,9 +127,16 @@ def t(key):
 def load_data():
     if not Path(DB_PATH).exists():
         return pd.DataFrame()
-    conn = sqlite3.connect(DB_PATH)
-    df   = pd.read_sql_query("SELECT * FROM scores", conn)
-    conn.close()
+    
+    import duckdb
+    # Gruk usa DuckDB para mirar dentro de piedra SQLite sin tocarla
+    con = duckdb.connect(database=':memory:')
+    con.execute("INSTALL sqlite;")
+    con.execute("LOAD sqlite;")
+    con.execute(f"CALL sqlite_attach('{DB_PATH}');")
+    
+    df = con.execute("SELECT * FROM scores").df()
+    con.close()
     return df
 
 

@@ -41,5 +41,9 @@ El scraper nunca asume que el usuario introdujo el "último ID" correcto. Al arr
 
 1.  **NO usar UI plana de Streamlit:** Cualquier nuevo componente en `app.py` debe envolverse en `st.container(border=True)` o adaptarse al estilo CSS global para no romper la estética "Pro-Dev".
 2.  **Manejo de Errores Asíncronos:** Las modificaciones en `core.py` y `network.py` no deben bloquear el `EventLoop`. Nunca usar `time.sleep()` dentro de la capa `scraper/`, siempre `asyncio.sleep()`.
-3.  **Base de Datos vs CSV:** La persistencia primaria es **SQLite** (`gpumagick.db`). Ya no dependemos de exportaciones en CSV en el flujo de trabajo principal. Cualquier análisis debe consultarse mediante SQL (a través de pandas `read_sql_query`).
+### 3. Base de Datos y Persistencia (Arquitectura Híbrida)
+*   **Escritura (Scraper):** Utiliza **SQLModel** sobre **aiosqlite** para inserciones seguras y asíncronas en `gpumagick.db`.
+*   **Lectura Analítica (App):** Utiliza **DuckDB** mediante el comando `sqlite_attach`. Esto permite realizar consultas analíticas (medias, filtrado masivo) con un rendimiento hasta 50 veces superior al de SQLite estándar sin duplicar los datos.
+*   **Modelo de Datos:** Centralizado en `models.py` para garantizar que ambas capas (escritura y lectura) respeten el mismo esquema.
+
 4.  **Scraping Ético:** El proyecto impone por defecto un **delay de 10 segundos** y **1 hilo concurrente** para respetar el `crawl-delay` de `gpumagick.com`. No reducir estos valores en versiones públicas para evitar bloqueos de IP y sobrecarga del servidor.
