@@ -7,18 +7,16 @@
 <a name="english"></a>
 ## 🇺🇸 English Version
 
-### 🛠️ From IT Helpdesk to AI-Powered Tool Developer
+### 🎯 The Goal: Finding the best Price/Performance combo
+This project was born from a simple question: **What is the best CPU and GPU combo for the price?** Instead of relying on old reviews or guessing, I built this tool to collect real benchmark data from GPUMagick and compare it with current market prices.
 
-This project represents my professional evolution in the IT world. As a **Helpdesk professional**, my daily work usually involves reactive troubleshooting. This scraper is the result of my curiosity to go further: **What happens when you combine system expertise with the power of Artificial Intelligence?**
+It’s a technical but practical project created with AI assistance to solve a specific problem: finding out exactly how many FPS you get for every Euro spent.
 
-I designed and supervised the construction of this asynchronous modular tool using advanced AI, ensuring every component—from the database to the UI—meets professional engineering standards.
-
-### 🌟 Key Features
-- **Asynchronous Modular Architecture:** Built with `asyncio` and `aiohttp` for maximum performance without system blocking.
-- **"Pro-Dev" Interface:** Custom dark-themed Streamlit dashboard with real-time telemetry.
-- **Robust Persistence:** SQLite integration for efficient handling of thousands of GPU records.
-- **Intelligent Process Control:** Process management via PID to prevent orphan engines and ensure system stability.
-- **Ethical Scraping:** Pre-configured with a 10s delay to respect server terms (robots.txt).
+### 🛠️ What’s under the hood?
+- **Fast Data Collection:** Uses `asyncio` and `aiohttp` to grab data efficiently.
+- **Visual Dashboard:** A Streamlit interface to filter, compare, and see rankings.
+- **SQLite Database:** Keeps all hardware records organized and easy to query.
+- **Ethical Scraping:** Pre-configured with a 10s delay to respect the website's rules.
 
 ### 🚀 Quick Start
 1. **Prerequisites:** Python 3.9+
@@ -36,18 +34,16 @@ I designed and supervised the construction of this asynchronous modular tool usi
 <a name="español"></a>
 ## 🇪🇸 Versión en Español
 
-### 🛠️ De IT Helpdesk a Desarrollador de Herramientas con IA
+### 🎯 El Objetivo: Encontrar el mejor combo Calidad/Precio
+Este proyecto nació de una pregunta sencilla: **¿Cuál es el mejor combo de procesador y gráfica por su precio?** En lugar de adivinar o mirar reviews antiguas, creé esta herramienta para recoger datos reales de GPUMagick y compararlos con los precios actuales del mercado.
 
-Este proyecto representa mi evolución profesional en el mundo de IT. Como perfil de **Helpdesk**, mi día a día suele ser resolver problemas técnicos. Este scraper es el resultado de mi curiosidad por ir más allá: **¿Qué pasa cuando combinas la experiencia en sistemas con el poder de la Inteligencia Artificial?**
+Es un proyecto técnico pero práctico, hecho con ayuda de IA para resolver un problema concreto: saber exactamente cuántos FPS obtienes por cada euro invertido.
 
-He diseñado y supervisado la construcción de esta herramienta modular asíncrona utilizando IA avanzada, asegurando que cada pieza (desde la base de datos hasta la interfaz) cumpla con estándares de ingeniería profesional.
-
-### 🌟 Características Principales
-- **Arquitectura Modular Asíncrona:** Construido con `asyncio` y `aiohttp` para un rendimiento máximo sin bloquear el sistema.
-- **Interfaz "Pro-Dev":** Dashboard oscuro personalizado en Streamlit con telemetría en tiempo real.
-- **Persistencia Robusta:** Integración con SQLite para el manejo eficiente de miles de registros de GPUs.
-- **Control de Procesos Inteligente:** Gestión de procesos mediante PID para evitar motores huérfanos y asegurar la estabilidad del sistema.
-- **Scraping Ético:** Configurado por defecto con un delay de 10s para respetar los términos del servidor.
+### 🛠️ ¿Qué hay detrás de esto?
+- **Extracción Eficiente:** Usa `asyncio` para recoger datos de forma rápida y organizada.
+- **Panel Visual:** Una interfaz en Streamlit para filtrar, comparar y ver el ranking de piezas.
+- **Base de Datos SQLite:** Mantiene todos los registros ordenados y listos para consultar.
+- **Scraping Ético:** Configurado con un delay de 10s para respetar las normas de la web.
 
 ### 🚀 Guía de Inicio Rápido
 1. **Requisitos:** Python 3.9+
@@ -61,7 +57,7 @@ He diseñado y supervisado la construcción de esta herramienta modular asíncro
    ```
 
 ---
-*Project maintained with pride by an IT automation enthusiast.*
+*Project created to find the best hardware value / Proyecto creado para encontrar el mejor valor en hardware.*
 
 ## 📸 Visual Showcase / Vista Previa
 
@@ -69,4 +65,4 @@ He diseñado y supervisado la construcción de esta herramienta modular asíncro
 | :---: | :---: | :---: |
 | ![Main UI](assets/screenshots/shot_final.png) | ![Analysis](assets/screenshots/shot_analysis.png) | ![Builds](assets/screenshots/shot_builds.png) |
 
-> *Note: The system aesthetics are inspired by high-fidelity terminals and professional monitoring dashboards.*
+> *Note: UI designed for a clean, technical look / Interfaz diseñada con una estética técnica y limpia.*
