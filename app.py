@@ -653,7 +653,8 @@ T = {
         "db": "DB", "killed": "Killed", "quick_eval": "Quick Evaluate",
         "select_cpu_eval": "Select a CPU to check its value in Builds",
         "eval_value": "Evaluate Value", "jump_to_builds": "Jump to Builds",
-        "market_val": "Market Value (€)", "tech_specs": "Technical Specs", "median_fps": "Median FPS"
+        "market_val": "Market Value (€)", "tech_specs": "Technical Specs", "median_fps": "Median FPS",
+        "ethics_warn": "A 10s delay is recommended to respect the server. Lowering it may cause IP bans."
     },
     "ES": {
         "scraper": "Extractor", "analysis": "Análisis", "builds": "Ensambles",
@@ -685,7 +686,8 @@ T = {
         "db": "BD", "killed": "Se detuvieron", "quick_eval": "Evaluación Rápida",
         "select_cpu_eval": "Selecciona un CPU para ver su valor en Ensambles",
         "eval_value": "Evaluar Valor", "jump_to_builds": "Ir a Ensambles",
-        "market_val": "Valor de Mercado (€)", "tech_specs": "Especificaciones Técnicas", "median_fps": "FPS Medios"
+        "market_val": "Valor de Mercado (€)", "tech_specs": "Especificaciones Técnicas", "median_fps": "FPS Medios",
+        "ethics_warn": "Se recomienda un delay de 10s por ética. Bajarlo puede causar bloqueos de IP."
     }
 }
 
@@ -895,6 +897,8 @@ if page == "Scraper":
             stride = a1.number_input(t("stride"), value=1, min_value=1)
             max_r  = a2.number_input(t("max_res"), value=10000)
             dly    = a3.number_input(t("delay"), value=10.0, step=0.5, min_value=0.1)
+            if dly < 10.0:
+                st.warning(t("ethics_warn"), icon="⚠️")
 
         st.markdown('<div style="height:0.5rem"></div>', unsafe_allow_html=True)
         _, btn_col = st.columns([4, 1])
