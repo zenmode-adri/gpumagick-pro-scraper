@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2026-05-13
+
+### 🧱 Arquitectura y Refactorización
+- **Modularización Total:** Se ha fragmentado la aplicación monolítica `app.py` en una estructura de páginas (`pages/`) y utilidades (`utils/`).
+- **Navegación Nativa:** Implementación de `st.navigation` para una gestión de páginas más robusta y limpia.
+- **Utilidades Compartidas:** Centralización de lógica de UI, datos y gráficos para eliminar redundancia.
+
+### ⚙️ Núcleo del Scraper
+- **Tipado de Fechas Real:** Conversión de `submitted_date` de String a `datetime` de Python. Permite análisis temporales precisos en SQL.
+- **Circuit Breaker (Escudo de Red):** Mecanismo de seguridad que detiene el scraper tras 10 errores 429 (Rate Limit) consecutivos o 20 errores generales.
+- **Feedback en UI:** Notificaciones visuales críticas en el dashboard cuando el Circuit Breaker se activa.
+- **Logging Profesional:** Sustitución de `print` por el módulo `logging` con niveles de severidad.
+
+### 🎨 UI/UX
+- **Avisos Críticos:** Alertas de color en el dashboard para estados de error de red.
+- **Estética Pulida:** Mejoras menores en el CSS global para mantener la coherencia "Pro-Dev".
+
 ## [2.0.0] - 2026-05-13
 
 ### Added
