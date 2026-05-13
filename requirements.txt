@@ -6,3 +6,4 @@ aiosqlite
 psutil
 sqlmodel
 duckdb
+selectolax

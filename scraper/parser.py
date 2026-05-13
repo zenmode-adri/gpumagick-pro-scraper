@@ -2,21 +2,16 @@ import re
 import logging
 from datetime import datetime
 from typing import Optional, Dict, Any
+from selectolax.lexbor import LexborHTMLParser
 from .models import GpuScore
 
 class GpuMagickParser:
-    BENCH_TYPE_PATTERN = re.compile(
-        r'(FurMark(?:\s+\w+)*\s*\((?:GL|VK)\))',
-        re.IGNORECASE
-    )
-
     @classmethod
     def parse_date(cls, date_str: str) -> datetime:
         """Convierte 'Apr 28, 2026 @ 15:46:19' en objeto datetime."""
         if not date_str:
             return datetime.utcnow()
         try:
-            # Ejemplo: "Apr 28, 2026 @ 15:46:19"
             clean_date = date_str.strip()
             return datetime.strptime(clean_date, "%b %d, %Y @ %H:%M:%S")
         except Exception as e:
@@ -24,23 +19,8 @@ class GpuMagickParser:
             return datetime.utcnow()
 
     @classmethod
-    def extract_field(cls, html: str, label: str) -> str:
-        pattern = (
-            r'<th[^>]*>(?:\s*<[^>]+>)*\s*' + re.escape(label) +
-            r'\s*(?:</[^>]+>\s*)*</th>\s*<td[^>]*>(?:\s*<[^>]+>)*\s*([^<]+?)\s*(?:<|$)'
-        )
-        m = re.search(pattern, html, re.IGNORECASE | re.DOTALL)
-        if m:
-            return re.sub(r"<[^>]+", "", m.group(1)).strip()
-        return ""
-
-    @classmethod
-    def detect_benchmark_type(cls, html: str) -> str:
-        m = cls.BENCH_TYPE_PATTERN.search(html)
-        return m.group(1).strip() if m else ""
-
-    @classmethod
     def normalize_gpu_name(cls, name: str) -> str:
+        if not name: return ""
         name = re.sub(r'/PCIe/SSE2$', '', name, flags=re.IGNORECASE)
         name = re.sub(r'/OpenCL$', '', name, flags=re.IGNORECASE)
         name = re.sub(r'^AMD\s+Radeon\s+\(TM\)\s+', 'Radeon ', name, flags=re.IGNORECASE)
@@ -53,29 +33,49 @@ class GpuMagickParser:
         if not html or len(html) < 500 or "INVALID SCORE" in html.upper():
             return None
         
-        gpu_raw = cls.extract_field(html, "3D Renderer")
+        parser = LexborHTMLParser(html)
+        
+        # Mapear la tabla principal a un diccionario
+        data = {}
+        # El encabezado está en un <th> que ocupa 2 columnas
+        header_node = parser.css_first("table.scores_table th[colspan='2']")
+        
+        # El tipo de benchmark suele estar dentro de una etiqueta <font size="6"> o similar
+        benchmark_type = ""
+        if header_node:
+            font_node = header_node.css_first("font")
+            if font_node:
+                benchmark_type = font_node.text().strip()
+            
+            # Fecha de envío: Submitted by anonymous on Apr 28, 2026 @ 15:46:19
+            header_text = header_node.text()
+            m_date = re.search(r"on\s+(.*? @ .*?)$", header_text, re.IGNORECASE | re.MULTILINE)
+            if m_date:
+                data["submitted_date"] = m_date.group(1).strip()
+
+        # Extraer filas de la tabla
+        for row in parser.css("table.scores_table tr"):
+            th = row.css_first("th")
+            td = row.css_first("td")
+            if th and td:
+                key = th.text().strip().upper()
+                val = td.text().strip()
+                data[key] = val
+
+        gpu_raw = data.get("3D RENDERER") or data.get("GPU0")
         if not gpu_raw:
             return None
 
-        duration_str = cls.extract_field(html, "Duration")
+        # Duración
         duration_ms = None
+        duration_str = data.get("DURATION")
         if duration_str:
             m = re.search(r"(\d+)", duration_str)
             if m: duration_ms = int(m.group(1))
 
-        # Gruk caza la fecha en el encabezado porque no está en la tabla
-        # Ejemplo: Submitted by anonymous on Apr 28, 2026 @ 15:46:19
-        submitted_date = ""
-        m_date = re.search(r"Submitted by .*? on (.*? @ .*?)</th>", html, re.IGNORECASE | re.DOTALL)
-        if m_date:
-            submitted_date = m_date.group(1).strip()
-        else:
-            # Plan B por si acaso
-            submitted_date = cls.extract_field(html, "Submitted")
-
         try:
-            score_val = int(cls.extract_field(html, "SCORE") or 0)
-            fps_val = float(cls.extract_field(html, "FPS") or 0.0)
+            score_val = int(data.get("SCORE") or 0)
+            fps_val = float(data.get("FPS") or 0.0)
         except ValueError:
             score_val = 0
             fps_val = 0.0
@@ -86,12 +86,13 @@ class GpuMagickParser:
             fps=fps_val,
             gpu=cls.normalize_gpu_name(gpu_raw),
             gpu_raw=gpu_raw,
-            resolution=cls.extract_field(html, "Resolution"),
+            resolution=data.get("RESOLUTION", ""),
             duration_ms=duration_ms,
-            cpu=cls.extract_field(html, "CPU"),
-            os=cls.extract_field(html, "Operating system"),
-            driver=cls.extract_field(html, "graphics driver"),
-            submitted_date=cls.parse_date(submitted_date),
-            benchmark_type=cls.detect_benchmark_type(html),
+            cpu=data.get("CPU", ""),
+            os=data.get("OPERATING SYSTEM", ""),
+            driver=data.get("GRAPHICS DRIVER", ""),
+            submitted_date=cls.parse_date(data.get("submitted_date", "")),
+            benchmark_type=benchmark_type,
             url=f"https://gpumagick.com/scores/{score_id}"
         )
+
