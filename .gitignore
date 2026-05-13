@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.gpumagick_cache/
+.streamlit/
+
+# Data and Databases
+gpumagick.db
+*.json
+*.csv
+!README.md
+!GEMINI.md
+
+# Logs and status
+*.log
+status.json
+
+# Screenshots (opcional: si quieres subirlas quita estas líneas)
+shot_*.png
+
+# OS files
+.DS_Store
+Thumbs.db

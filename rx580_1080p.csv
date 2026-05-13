@@ -1,0 +1,672 @@
+score_id,benchmark_type,submitted_date,cpu,gpu,score,fps,resolution,duration_ms,os,driver,url
+2625438,FurMark (GL),,Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz,Radeon RX 580 Series,4007,66,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2625438
+2625368,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,Radeon RX 580 Series,4546,75,1920x1080,60000,Windows 10 build 18363,,https://gpumagick.com/scores/2625368
+2625133,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3646,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2625133
+2624513,FurMark (GL),,AMD Ryzen 5 4500 6-Core Processor,AMD Radeon RX 580 2048SP,3230,53,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2624513
+2624313,FurMark (GL),,Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz,AMD Radeon RX 580 2048SP,3486,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2624313
+2624298,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,2338,38,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2624298
+2624128,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,2286,38,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2624128
+2623818,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,3306,54,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2623818
+2623768,FurMark (GL),,Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,Radeon RX 580 Series,3704,61,1920x1080,60000,Windows 11 build 22635,,https://gpumagick.com/scores/2623768
+2623663,FurMark (GL),,Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz,AMD Radeon RX 580 2048SP,3718,61,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2623663
+2623603,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,AMD Radeon RX 580 2048SP,3552,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2623603
+2623573,FurMark (GL),,Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz,Radeon RX 580 Series,3603,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2623573
+2623373,FurMark (GL),,Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,2770,45,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2623373
+2623183,FurMark (GL),,AMD Ryzen 5 4500 6-Core Processor,AMD Radeon RX 580 2048SP,3309,55,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2623183
+2623038,FurMark (GL),,AMD Ryzen 7 3700X 8-Core Processor,Radeon RX 580 Series,3732,61,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2623038
+2622948,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,AMD Radeon RX 580 2048SP,3038,50,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2622948
+2622898,FurMark (GL),,Intel(R) Core(TM) i5-2310 CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,2930,48,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2622898
+2622683,FurMark (GL),,AMD FX(tm)-6300 Six-Core Processor,AMD Radeon RX 580 2048SP,916,15,3840x2160,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2622683
+2622168,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400F,AMD Radeon RX 580 2048SP,2394,39,2560x1440,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2622168
+2622068,FurMark (GL),,Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz,Radeon RX 580 Series,3782,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2622068
+2621638,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3412,56,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2621638
+2621193,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2696 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3092,51,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2621193
+2621083,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,3431,56,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2621083
+2620808,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,AMD Radeon RX 580 2048SP,2912,48,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2620808
+2620383,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3816,63,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2620383
+2620158,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,Radeon RX 580 Series,3803,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2620158
+2620108,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,2983,49,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2620108
+2619748,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,3470,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2619748
+2619518,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,Radeon RX 580 Series,3779,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2619518
+2619128,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,1451,24,3840x2160,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2619128
+2618768,FurMark (GL),,12th Gen Intel(R) Core(TM) i3-12100F,Radeon RX 580 Series,3777,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2618768
+2618658,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz,AMD Radeon RX 580 2048SP,3462,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2618658
+2618443,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,1793,29,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2618443
+2618048,FurMark (GL),,12th Gen Intel(R) Core(TM) i3-12100,Radeon RX 580 Series,2255,39,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2618048
+2617738,FurMark (GL),,AMD Ryzen 5 5600GT with Radeon Graphics,AMD Radeon RX 580 2048SP,1984,33,2560x1440,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2617738
+2617568,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1275 V2 @ 3.50GHz,AMD Radeon RX 580 2048SP,2829,46,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2617568
+2617513,FurMark (GL),,Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz,AMD Radeon RX 580 2048SP (radeonsi polaris10 ACO DRM 3.64 7.0.0-15-generic),1527,25,2560x1440,60000,Linux 7.0.0-15-generic 64-bit,,https://gpumagick.com/scores/2617513
+2617538,FurMark (GL),,Intel(R) Core(TM) i5-2500K CPU @ 3.30GHz,Radeon RX 580 Series,3607,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2617538
+2617473,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400,Radeon RX 580 Series,4106,68,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2617473
+2616868,FurMark (GL),,11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz,AMD Radeon RX 580 2048SP,3445,57,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2616868
+2616633,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3360,56,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2616633
+2616598,FurMark (GL),,Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz,AMD Radeon RX 580 2048SP,2531,42,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2616598
+2616248,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz,AMD Radeon RX 580 2048SP,3494,55,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2616248
+2615153,FurMark (GL),,Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz,Radeon RX 580 Series,4503,74,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2615153
+2615068,FurMark (GL),,Intel(R) Core(TM) i3-10105F CPU @ 3.70GHz,AMD Radeon RX 580 2048SP,3551,58,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2615068
+2614678,FurMark (GL),,AMD FX(tm)-8320 Eight-Core Processor,Radeon RX 580 Series,3545,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2614678
+2614643,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,AMD Radeon RX 580 2048SP,2369,39,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2614643
+2614573,FurMark (GL),,Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz,Radeon RX 580 Series,3566,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2614573
+2613868,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz,Radeon RX 580 Series,3540,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2613868
+2613443,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,3482,57,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2613443
+2613418,FurMark (GL),,Intel(R) Core(TM) i5-3550S CPU @ 3.00GHz,Radeon RX 580 Series,3840,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2613418
+2613268,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,Radeon RX 580 Series,3874,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2613268
+2613153,FurMark (GL),,Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz,Radeon RX 580 Series,4047,67,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2613153
+2612793,FurMark (GL),,AMD Ryzen 5 5600GT with Radeon Graphics,AMD Radeon RX 580 2048SP,3327,55,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2612793
+2612678,FurMark (GL),,AMD Ryzen 5 2400G with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,2333,40,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2612678
+2612688,FurMark (GL),,Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz,AMD Radeon RX 580 2048SP,3771,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2612688
+2612388,FurMark (GL),,Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz,AMD Radeon RX 580 2048SP,3331,55,1920x1080,60000,Windows 10 build 17763,,https://gpumagick.com/scores/2612388
+2612198,FurMark (GL),,Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,Radeon RX 580 Series,3266,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2612198
+2612133,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400F,AMD Radeon RX 580 2048SP,3476,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2612133
+2611013,FurMark (GL),,Intel(R) Core(TM) i5-3570S CPU @ 3.10GHz,Radeon RX 580 Series,3728,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2611013
+2610953,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2697 v3 @ 2.60GHz,AMD Radeon RX 580 2048SP,3560,59,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2610953
+2610058,FurMark (GL),,Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz,Radeon RX 580 Series,3964,65,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2610058
+2609688,FurMark (GL),,AMD Ryzen 5 3500 6-Core Processor,Radeon RX 580 Series,3669,60,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2609688
+2609448,FurMark (GL),,Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz,Radeon RX 580 Series,3915,65,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2609448
+2609408,FurMark (GL),,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,Radeon RX 580 Series,3976,66,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2609408
+2609118,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,Radeon RX 580 Series,3915,65,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2609118
+2608843,FurMark (GL),,Intel(R) Xeon(R) CPU E5-1650 v2 @ 3.50GHz,Radeon RX 580 Series,4326,71,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2608843
+2608678,FurMark (GL),,AMD FX(tm)-8350 Eight-Core Processor,Radeon RX 580 Series,3523,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2608678
+2608408,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,AMD Radeon RX 580 2048SP,2688,44,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2608408
+2608268,FurMark (GL),,Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,Radeon RX 580 Series,2643,43,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2608268
+2608243,FurMark (GL),,Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,Radeon RX 580 Series,3855,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2608243
+2608183,FurMark (GL),,AMD Ryzen 7 2700X Eight-Core Processor,Radeon RX 580 Series,3615,60,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2608183
+2607753,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,Radeon RX 580 Series,2990,49,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2607753
+2607638,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2689 0 @ 2.60GHz,Radeon RX 580 Series,3709,61,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2607638
+2607393,FurMark (GL),,Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,3500,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2607393
+2607263,FurMark (GL),,Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz,Radeon RX 580 Series,3877,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2607263
+2607168,FurMark (GL),,AMD Ryzen 5 PRO 4650G with Radeon Graphics,Radeon RX 580 Series,3490,57,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2607168
+2607003,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,2312,38,3440x1440,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2607003
+2606983,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,2764,46,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2606983
+2606168,FurMark (GL),,AMD Ryzen 5 2400G with Radeon Vega Graphics,Radeon RX 580 Series,3651,60,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2606168
+2606088,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3128,51,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2606088
+2605998,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400F,AMD Radeon RX 580 2048SP,1992,33,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2605998
+2605878,FurMark (GL),,Intel(R) Core(TM) i3-10105F CPU @ 3.70GHz,AMD Radeon RX 580 2048SP,1286,21,3840x2160,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2605878
+2605823,FurMark (GL),,AMD Ryzen 5 2500X Quad-Core Processor,Radeon RX 580 Series,3579,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2605823
+2605683,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,AMD Radeon RX 580 2048SP,2878,47,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2605683
+2605658,FurMark (GL),,Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz,Radeon RX 580 Series,3765,62,1920x1080,60000,Windows 7 build 7601,,https://gpumagick.com/scores/2605658
+2604593,FurMark (GL),,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,Radeon RX 580 Series,3660,60,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2604593
+2604588,FurMark (GL),,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,Radeon RX 580 Series,3845,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2604588
+2604538,FurMark (GL),,AMD Ryzen 7 2700X Eight-Core Processor,Radeon RX 580 Series,3907,64,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2604538
+2604238,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2678 v3 @ 2.50GHz,AMD Radeon RX 580 2048SP,3598,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2604238
+2603898,FurMark (GL),,Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz,Radeon RX 580 Series,2527,42,2560x1440,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2603898
+2603693,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3832,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2603693
+2603453,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,AMD Radeon RX 580 2048SP,2701,44,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2603453
+2603288,FurMark (GL),,AMD Ryzen 5 2600X Six-Core Processor,AMD Radeon RX 580 2048SP,2778,46,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2603288
+2603248,FurMark (GL),,Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz,Radeon RX 580 Series,3822,63,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2603248
+2602848,FurMark (GL),,Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz,Radeon RX 580 Series,3830,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2602848
+2602673,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,Radeon RX 580 Series,3274,55,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2602673
+2602403,FurMark (GL),,Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz,Radeon RX 580 Series,3496,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2602403
+2602308,FurMark (GL),,Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,2535,42,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2602308
+2602153,FurMark (GL),,Intel(R) Core(TM) i5-4690 CPU @ 3.50GHz,Radeon RX 580 Series,3739,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2602153
+2602043,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,Radeon RX 580 Series,3749,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2602043
+2601843,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,3429,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2601843
+2601773,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,AMD Radeon RX 580 2048SP,2698,44,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2601773
+2601768,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,AMD Radeon RX 580 2048SP,2698,44,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2601768
+2601028,FurMark (GL),,Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,3843,63,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2601028
+2600548,FurMark (GL),,Intel(R) Core(TM) i5-2500K CPU @ 3.30GHz,Radeon RX 580 Series,3544,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2600548
+2600228,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,AMD Radeon RX 580 2048SP,2653,44,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2600228
+2599693,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz,AMD Radeon RX 580 2048SP,3468,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2599693
+2599683,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,3768,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2599683
+2599438,FurMark (GL),,Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz,Radeon RX 580 Series,3789,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2599438
+2599358,FurMark (GL),,Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,3617,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2599358
+2599048,FurMark (GL),,AMD Ryzen 5 1600 Six-Core Processor,Radeon RX 580 Series,4507,74,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2599048
+2598993,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,Radeon RX 580 Series,3839,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2598993
+2598908,FurMark (GL),,Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz,Radeon RX 580 Series,3533,58,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2598908
+2598878,FurMark (GL),,AMD Ryzen 5 4600G with Radeon Graphics,Radeon RX 580 Series,3778,62,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2598878
+2598778,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,AMD Radeon RX 580 2048SP,3159,52,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2598778
+2598318,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2689 0 @ 2.60GHz,Radeon RX 580 Series,3552,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2598318
+2598248,FurMark (GL),,11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz,Radeon RX 580 Series,3528,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2598248
+2598238,FurMark (GL),,Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz,Radeon RX 580 Series,3856,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2598238
+2597993,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,2881,49,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2597993
+2597948,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,2843,47,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2597948
+2597648,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz,AMD Radeon RX 580 2048SP,2992,49,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2597648
+2597578,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,2592,43,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2597578
+2597543,FurMark (GL),,Intel(R) Pentium(R) CPU G4560 @ 3.50GHz,AMD Radeon RX 580 2048SP,3280,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2597543
+2597548,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3483,58,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2597548
+2597353,FurMark (GL),,AMD Ryzen 5 5500,Radeon RX 580 Series,3793,63,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2597353
+2597243,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400,Radeon RX 580 Series,3730,61,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2597243
+2597218,FurMark (GL),,Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz,Radeon RX 580 Series,2813,46,2560x1440,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2597218
+2597168,FurMark (GL),,AMD Ryzen 5 1500X Quad-Core Processor,Radeon RX 580 Series,2626,43,2560x1440,60000,Windows 10 build 18363,,https://gpumagick.com/scores/2597168
+2597018,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,3375,56,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2597018
+2596978,FurMark (GL),,Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz,AMD Radeon RX 580 2048SP,3106,51,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2596978
+2596923,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3794,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2596923
+2596403,FurMark (GL),,Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz,Radeon RX 580 Series,3814,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2596403
+2595988,FurMark (GL),,AMD FX(tm)-8320 Eight-Core Processor,Radeon RX 580 Series,3588,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2595988
+2595868,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,AMD Radeon RX 580 2048SP,2623,43,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2595868
+2595763,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3073,51,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2595763
+2595683,FurMark (GL),,Intel(R) Core(TM) i5 CPU         760  @ 2.80GHz,Radeon RX 580 Series,3821,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2595683
+2595483,FurMark (GL),,Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz,Radeon RX 580 Series,3780,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2595483
+2595403,FurMark (GL),,Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,Radeon RX 580 Series,4207,69,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2595403
+2594828,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,3597,59,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2594828
+2594808,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,3599,59,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2594808
+2594793,FurMark (GL),,AMD Ryzen 5 2600X Six-Core Processor,Radeon RX 580 Series,3870,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2594793
+2594548,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,3541,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2594548
+2594353,FurMark (GL),,Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz,Radeon RX 580 Series,4102,68,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2594353
+2594023,FurMark (GL),,Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz,Radeon RX 580 Series,3746,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2594023
+2593783,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,2774,46,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2593783
+2593653,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,Radeon RX 580 Series,2673,44,3440x1440,60000,Windows 10 build 19042,,https://gpumagick.com/scores/2593653
+2593443,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3442,57,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2593443
+2593173,FurMark (GL),,11th Gen Intel(R) Core(TM) i5-11500 @ 2.70GHz,AMD Radeon RX 580 2048SP,1214,20,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2593173
+2592473,FurMark (GL),,Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz,Radeon RX 580 Series,4203,69,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2592473
+2592423,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2678 v3 @ 2.50GHz,Radeon RX 580 Series,3585,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2592423
+2592348,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz,Radeon RX 580 Series,3999,66,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2592348
+2592333,FurMark (GL),,Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,Radeon RX 580 Series,3883,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2592333
+2592283,FurMark (GL),,AMD Ryzen 5 5600GT with Radeon Graphics,AMD Radeon RX 580 2048SP,2851,47,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2592283
+2592188,FurMark (GL),,Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz,Radeon RX 580 Series,3550,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2592188
+2592073,FurMark (GL),,Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz,Radeon RX 580 Series,3715,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2592073
+2591833,FurMark (GL),,Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz,AMD Radeon RX 580 2048SP,3347,55,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2591833
+2591733,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,Radeon RX 580 Series,3924,65,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2591733
+2591698,FurMark (GL),,AMD Ryzen 5 3400G with Radeon Vega Graphics,Radeon RX 580 Series,4247,70,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2591698
+2591678,FurMark (GL),,Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,3230,53,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2591678
+2591453,FurMark (GL),,Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz,Radeon RX 580 Series,3431,57,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2591453
+2591328,FurMark (GL),,AMD Ryzen 7 2700X Eight-Core Processor,Radeon RX 580 Series,2660,44,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2591328
+2591313,FurMark (GL),,AMD Ryzen 7 2700X Eight-Core Processor,Radeon RX 580 Series,2659,44,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2591313
+2591258,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,3551,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2591258
+2591163,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2643 v3 @ 3.40GHz,Radeon RX 580 Series,3865,64,1920x1080,60000,Windows 10 build 10586,,https://gpumagick.com/scores/2591163
+2590818,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1240 v3 @ 3.40GHz,Radeon RX 580 Series,3793,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2590818
+2590608,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3907,61,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2590608
+2590573,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3869,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2590573
+2590563,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3871,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2590563
+2590398,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3856,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2590398
+2590368,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1281 v3 @ 3.70GHz,Radeon RX 580 Series,3707,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2590368
+2590098,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz,AMD Radeon RX 580 2048SP,2908,48,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2590098
+2589678,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,Radeon RX 580 Series,4135,68,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2589678
+2589638,FurMark (GL),,Intel(R) Core(TM) i5 CPU         760  @ 2.80GHz,Radeon RX 580 Series,455,7,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2589638
+2589248,FurMark (GL),,Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz,Radeon RX 580 Series,3527,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2589248
+2589228,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,Radeon RX 580 Series,4138,68,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2589228
+2589138,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz,Radeon RX 580 Series,4062,67,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2589138
+2588963,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3269,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2588963
+2588768,FurMark (GL),,AMD Ryzen 5 1500X Quad-Core Processor,Radeon RX 580 Series,3682,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2588768
+2588488,FurMark (GL),,Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz,Radeon RX 580 Series,3837,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2588488
+2587958,FurMark (GL),,Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz,Radeon RX 580 Series,3833,63,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2587958
+2587923,FurMark (GL),,AMD Ryzen 5 7500F 6-Core Processor,Radeon RX 580 Series,3546,58,1920x1080,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2587923
+2587813,FurMark (GL),,AMD Phenom(tm) II X2 565 Processor,AMD Radeon RX 580 Series (radeonsi polaris10 ACO DRM 3.61 6.14.0-37-generic),3290,55,1920x1080,60000,Linux 6.14.0-37-generic 64-bit,,https://gpumagick.com/scores/2587813
+2587783,FurMark (GL),,Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz,Radeon RX 580 Series,3459,57,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2587783
+2587718,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3539,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2587718
+2587248,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3509,58,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2587248
+2586823,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,AMD Radeon RX 580 2048SP,3219,53,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2586823
+2586713,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,2488,41,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2586713
+2586603,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,AMD Radeon RX 580 2048SP,2903,48,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2586603
+2586418,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,3514,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2586418
+2586233,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2699 v3 @ 2.30GHz,Radeon RX 580 Series,3615,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2586233
+2585938,FurMark (GL),,Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz,AMD Radeon RX 580 2048SP,2760,45,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2585938
+2585628,FurMark (GL),,AMD FX(tm)-8350 Eight-Core Processor,Radeon RX 580 Series,3798,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2585628
+2585478,FurMark (GL),,AMD Ryzen 7 8700F 8-Core Processor,Radeon RX 580 Series,3648,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2585478
+2585283,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz,Radeon RX 580 Series,3716,61,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2585283
+2585258,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz,Radeon RX 580 Series,4151,69,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2585258
+2585158,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz,Radeon RX 580 Series,3972,66,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2585158
+2585053,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,AMD Radeon RX 580 2048SP,2394,39,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2585053
+2584258,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz,AMD Radeon RX 580 2048SP,3384,56,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2584258
+2584023,FurMark (GL),,AMD Ryzen 7 3700X 8-Core Processor,Radeon RX 580 Series,2662,44,2560x1440,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2584023
+2583903,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,Radeon RX 580 Series,4039,67,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2583903
+2583848,FurMark (GL),,Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz,Radeon RX 580 Series,3896,64,1920x1080,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2583848
+2583338,FurMark (GL),,AMD Ryzen 5 2600X Six-Core Processor,Radeon RX 580 Series,3746,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2583338
+2583258,FurMark (GL),,AMD Ryzen 7 1700X Eight-Core Processor,Radeon RX 580 Series,3650,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2583258
+2583238,FurMark (GL),,AMD Ryzen 5 3400G with Radeon Vega Graphics,Radeon RX 580 Series,4314,71,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2583238
+2583188,FurMark (GL),,Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz,Radeon RX 580 Series,3797,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2583188
+2582503,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,4009,66,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2582503
+2581993,FurMark (GL),,Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz,Radeon RX 580 Series,3814,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2581993
+2581893,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,AMD Radeon RX 580 2048SP,2869,47,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2581893
+2581828,FurMark (GL),,Intel(R) Core(TM) i5-9500 CPU @ 3.00GHz,Radeon RX 580 Series,4384,72,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2581828
+2581583,FurMark (GL),,Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz,Radeon RX 580 Series,3525,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2581583
+2581453,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz,AMD Radeon RX 580 2048SP,3357,55,1920x1080,60000,Windows 7 build 7601,,https://gpumagick.com/scores/2581453
+2580998,FurMark (GL),,Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz,AMD Radeon RX 580 2048SP,3473,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2580998
+2580933,FurMark (GL),,Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz,AMD Radeon RX 580 2048SP,2976,49,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2580933
+2580808,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3707,61,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2580808
+2580723,FurMark (GL),,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,2362,39,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2580723
+2580673,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3713,61,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2580673
+2580568,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz,Radeon RX 580 Series,3711,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2580568
+2580493,FurMark (GL),,AMD Ryzen 5 3500 6-Core Processor,AMD Radeon RX 580 2048SP,3567,59,1920x1080,60000,Windows 11 build 22000,,https://gpumagick.com/scores/2580493
+2580323,FurMark (GL),,AMD Ryzen 5 1600 Six-Core Processor,AMD Radeon RX 580 Series (radeonsi polaris10 ACO DRM 3.64 7.0.1-1-cachyos),3967,66,1920x1080,60000,Linux 7.0.1-1-cachyos 64-bit,,https://gpumagick.com/scores/2580323
+2580233,FurMark (GL),,Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,3315,55,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2580233
+2579838,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,AMD Radeon RX 580 2048SP,3000,50,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2579838
+2579793,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,AMD Radeon RX 580 2048SP,2803,46,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2579793
+2579678,FurMark (GL),,AMD Ryzen 7 5800X 8-Core Processor,Radeon RX 580 Series,3948,65,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2579678
+2579573,FurMark (GL),,Intel(R) Core(TM) i5 CPU         750  @ 2.67GHz,Radeon RX 580 Series,4308,71,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2579573
+2579533,FurMark (GL),,Intel(R) Core(TM) i5 CPU         750  @ 2.67GHz,Radeon RX 580 Series,3878,64,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2579533
+2579508,FurMark (GL),,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,AMD Radeon RX 580 Series (radeonsi polaris10 ACO DRM 3.64 7.0.1-1-cachyos),3904,65,1920x1080,60000,Linux 7.0.1-1-cachyos 64-bit,,https://gpumagick.com/scores/2579508
+2579358,FurMark (GL),,Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz,Radeon RX 580 Series,3893,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2579358
+2579338,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,3301,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2579338
+2579238,FurMark (GL),,Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz,Radeon RX 580 Series,3763,62,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2579238
+2579178,FurMark (GL),,Intel(R) Core(TM) i5-2500S CPU @ 2.70GHz,AMD Radeon RX 580 2048SP,3294,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2579178
+2578968,FurMark (GL),,Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz,Radeon RX 580 Series,4277,68,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2578968
+2578883,FurMark (GL),,AMD Ryzen 3 4100 4-Core Processor,AMD Radeon RX 580 2048SP,2759,45,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2578883
+2578858,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,Radeon RX 580 Series,4147,69,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2578858
+2578808,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,AMD Radeon RX 580 2048SP,1725,28,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2578808
+2578753,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz,Radeon RX 580 Series,3977,66,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2578753
+2578573,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,Radeon RX 580 Series,3857,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2578573
+2577993,FurMark (GL),,13th Gen Intel(R) Core(TM) i5-13400F,Radeon RX 580 Series,1320,21,3840x2160,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2577993
+2577973,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,AMD Radeon RX 580 2048SP,2009,33,1920x1080,60000,Windows 10 build 19042,,https://gpumagick.com/scores/2577973
+2577718,FurMark (GL),,Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz,Radeon RX 580 Series,3786,62,1920x1080,60000,Windows 11 build 22000,,https://gpumagick.com/scores/2577718
+2577453,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz,AMD Radeon RX 580 2048SP,3463,57,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2577453
+2577143,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,Radeon RX 580 Series,3361,56,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2577143
+2576968,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,Radeon RX 580 Series,3835,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2576968
+2576873,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz,AMD Radeon RX 580 2048SP,2516,41,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2576873
+2576778,FurMark (GL),,Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz,AMD Radeon RX 580 2048SP,3623,60,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2576778
+2576358,FurMark (GL),,Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz,AMD Radeon RX 580 2048SP,3838,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2576358
+2575528,FurMark (GL),,Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz,Radeon RX 580 Series,3947,65,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2575528
+2575418,FurMark (GL),,AMD Ryzen 5 1600 Six-Core Processor,AMD Radeon RX 580 Series (radeonsi polaris10 ACO DRM 3.64 7.0.1-1-cachyos),3552,59,1920x1080,60000,Linux 7.0.1-1-cachyos 64-bit,,https://gpumagick.com/scores/2575418
+2575308,FurMark (GL),,Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz,Radeon RX 580 Series,4119,68,1920x1080,60000,Windows 10 build 16299,,https://gpumagick.com/scores/2575308
+2575098,FurMark (GL),,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,Radeon RX 580 Series,3703,61,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2575098
+2574918,FurMark (GL),,Intel(R) Core(TM) i3-10105F CPU @ 3.70GHz,AMD Radeon RX 580 2048SP,1212,20,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2574918
+2574323,FurMark (GL),,Intel(R) Xeon(R) CPU E31240 @ 3.30GHz,Radeon RX 580 Series,4214,70,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2574323
+2574138,FurMark (GL),,AMD Ryzen 7 1700 Eight-Core Processor,AMD Radeon RX 580 2048SP,2678,45,1920x1080,60000,Windows 10 build 17763,,https://gpumagick.com/scores/2574138
+2574103,FurMark (GL),,AMD FX(tm)-6300 Six-Core Processor,Radeon RX 580 Series,3567,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2574103
+2573953,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,4051,67,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2573953
+2573728,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,2433,40,2560x1440,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2573728
+2573703,FurMark (GL),,Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,2412,40,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2573703
+2573568,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400F,Radeon RX 580 Series,3742,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2573568
+2573278,FurMark (GL),,Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz,Radeon RX 580 Series,3798,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2573278
+2573093,FurMark (GL),,Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz,Radeon RX 580 Series,3751,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2573093
+2572723,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2678 v3 @ 2.50GHz,AMD Radeon RX 580 2048SP,1910,32,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2572723
+2572493,FurMark (GL),,Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz,Radeon RX 580 Series,3969,65,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2572493
+2571718,FurMark (GL),,Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz,Radeon RX 580 Series,3973,66,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2571718
+2571533,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400,Radeon RX 580 Series,3474,58,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2571533
+2571518,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,Radeon RX 580 Series,2810,46,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2571518
+2570703,FurMark (GL),,AMD Ryzen 7 3700X 8-Core Processor,Radeon RX 580 Series,3855,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2570703
+2570558,FurMark (GL),,Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz,Radeon RX 580 Series,2650,44,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2570558
+2570553,FurMark (GL),,Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz,Radeon RX 580 Series,3863,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2570553
+2570543,FurMark (GL),,AMD Ryzen 7 5800X 8-Core Processor,Radeon RX 580 Series,3927,65,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2570543
+2570463,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,Radeon RX 580 Series,3878,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2570463
+2570408,FurMark (GL),,AMD Ryzen 5 1600 Six-Core Processor,Radeon RX 580 Series,3563,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2570408
+2570413,FurMark (GL),,AMD Ryzen 5 1600 Six-Core Processor,Radeon RX 580 Series,2440,40,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2570413
+2570348,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3275,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2570348
+2570183,FurMark (GL),,Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz,AMD Radeon RX 580 2048SP,2677,44,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2570183
+2569983,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,AMD Radeon RX 580 2048SP,3143,52,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2569983
+2569923,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,3457,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2569923
+2569873,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,AMD Radeon RX 580 2048SP,3182,53,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2569873
+2569498,FurMark (GL),,Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3530,58,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2569498
+2569118,FurMark (GL),,AMD Ryzen 5 1500X Quad-Core Processor,Radeon RX 580 Series,4052,67,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2569118
+2568773,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,AMD Radeon RX 580 2048SP,3308,55,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2568773
+2568458,FurMark (GL),,AMD Ryzen 5 8500G w/ Radeon 740M Graphics,AMD Radeon RX 580 2048SP,3270,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2568458
+2568403,FurMark (GL),,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,AMD Radeon RX 580 2048SP,1789,29,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2568403
+2568138,FurMark (GL),,Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz,Radeon RX 580 Series,3663,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2568138
+2567878,FurMark (GL),,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,Radeon RX 580 Series,4050,67,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2567878
+2567803,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,3100,51,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2567803
+2567628,FurMark (GL),,Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz,AMD Radeon RX 580 2048SP,3251,54,1920x1080,60000,Windows 11 build 22000,,https://gpumagick.com/scores/2567628
+2567478,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,Radeon RX 580 Series,3858,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2567478
+2567333,FurMark (GL),,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,Radeon RX 580 Series,3851,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2567333
+2567328,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz,AMD Radeon RX 580 2048SP,3553,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2567328
+2567258,FurMark (GL),,11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz,Radeon RX 580 Series,3701,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2567258
+2567248,FurMark (GL),,11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz,Radeon RX 580 Series,3697,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2567248
+2566998,FurMark (GL),,Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz,Radeon RX 580 Series,3756,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2566998
+2566673,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2470 v2 @ 2.40GHz,Radeon RX 580 Series,3574,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2566673
+2566473,FurMark (GL),,11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz,Radeon RX 580 Series,3717,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2566473
+2566283,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz,Radeon RX 580 Series,3560,59,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2566283
+2566258,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz,AMD Radeon RX 580 2048SP,2039,33,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2566258
+2566218,FurMark (GL),,AMD Ryzen 3 1200 Quad-Core Processor,Radeon RX 580 Series,3536,58,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2566218
+2565763,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,Radeon RX 580 Series,3591,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2565763
+2565748,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz,AMD Radeon RX 580 2048SP,2622,43,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2565748
+2565728,FurMark (GL),,12th Gen Intel(R) Core(TM) i3-12100F,AMD Radeon RX 580 2048SP,3014,50,1920x1080,60000,Windows 10 build 18363,,https://gpumagick.com/scores/2565728
+2565698,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,AMD Radeon RX 580 2048SP,2082,34,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2565698
+2565338,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,AMD Radeon RX 580 2048SP,2755,45,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2565338
+2564763,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,Radeon RX 580 Series,4406,73,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2564763
+2564633,FurMark (GL),,Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz,Radeon RX 580 Series,4035,67,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2564633
+2564368,FurMark (GL),,Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz,Radeon RX 580 Series,3825,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2564368
+2564293,FurMark (GL),,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,Radeon RX 580 Series,3945,65,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2564293
+2564118,FurMark (GL),,Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz,Radeon RX 580 Series,3717,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2564118
+2564063,FurMark (GL),,Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz,Radeon RX 580 Series,3798,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2564063
+2563683,FurMark (GL),,Pentium(R) Dual-Core  CPU      E5400  @ 2.70GHz,Radeon RX 580 Series,3541,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2563683
+2563643,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,3226,53,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2563643
+2563323,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,2644,43,2560x1440,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2563323
+2563278,FurMark (GL),,Intel(R) Core(TM) i7-2670QM CPU @ 2.20GHz,Radeon RX 580 Series,3664,60,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2563278
+2562883,FurMark (GL),,Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz,Radeon RX 580 Series,2611,43,2560x1440,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2562883
+2562788,FurMark (GL),,Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,3464,57,1920x1080,60000,Windows 10 build 18362,,https://gpumagick.com/scores/2562788
+2562733,FurMark (GL),,Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz,Radeon RX 580 Series,3732,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2562733
+2562698,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1271 v3 @ 3.60GHz,Radeon RX 580 Series,3757,62,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2562698
+2562568,FurMark (GL),,Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz,Radeon RX 580 Series,815,14,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2562568
+2562253,FurMark (GL),,AMD Ryzen 5 1600 Six-Core Processor,Radeon RX 580 Series,3699,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2562253
+2562138,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,2997,49,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2562138
+2561963,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz,Radeon RX 580 Series,1257,24,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2561963
+2561948,FurMark (GL),,Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,Radeon RX 580 Series,4285,71,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2561948
+2561778,FurMark (GL),,11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz,AMD Radeon RX 580 2048SP,3392,56,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2561778
+2561703,FurMark (GL),,Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz,AMD Radeon RX 580 2048SP,3262,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2561703
+2561663,FurMark (GL),,Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz,AMD Radeon RX 580 2048SP,3334,55,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2561663
+2561503,FurMark (GL),,Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,3323,55,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2561503
+2560858,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,AMD Radeon RX 580 2048SP,3365,55,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2560858
+2560533,FurMark (GL),,Intel(R) Core(TM)2 Quad  CPU   Q8200  @ 2.33GHz,Radeon RX 580 Series,3819,63,1920x1080,60000,Windows 7 build 7601,,https://gpumagick.com/scores/2560533
+2560518,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3112,51,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2560518
+2560483,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,1709,28,3440x1440,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2560483
+2559968,FurMark (GL),,AMD Ryzen 3 4100 4-Core Processor,AMD Radeon RX 580 2048SP,3329,55,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2559968
+2559923,FurMark (GL),,AMD Ryzen 5 5500,Radeon RX 580 Series,3819,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2559923
+2559653,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1245 v5 @ 3.50GHz,Radeon RX 580 Series,3681,61,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2559653
+2559613,FurMark (GL),,Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz,Radeon RX 580 Series,3852,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2559613
+2559563,FurMark (GL),,Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz,Radeon RX 580 Series,4100,68,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2559563
+2558973,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3747,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2558973
+2558668,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz,Radeon RX 580 Series,3178,52,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2558668
+2558628,FurMark (GL),,Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz,AMD Radeon RX 580 2048SP,3328,55,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2558628
+2558248,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,4082,67,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2558248
+2558188,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400,Radeon RX 580 Series,3760,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2558188
+2557998,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,2001,33,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2557998
+2557933,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2620 v2 @ 2.10GHz,Radeon RX 580 Series,3596,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2557933
+2557768,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,3217,53,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2557768
+2557468,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,4005,66,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2557468
+2557263,FurMark (GL),,Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz,Radeon RX 580 Series,4233,70,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2557263
+2557153,FurMark (GL),,Intel(R) Core(TM) i5-4690 CPU @ 3.50GHz,AMD Radeon RX 580 2048SP,2830,46,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2557153
+2556988,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3322,55,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2556988
+2556853,FurMark (GL),,AMD Ryzen 5 1600X Six-Core Processor,AMD Radeon RX 580 2048SP,3145,52,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2556853
+2556813,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,3546,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2556813
+2556248,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,AMD Radeon RX 580 2048SP,1571,26,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2556248
+2556113,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz,AMD Radeon RX 580 2048SP,2496,41,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2556113
+2556083,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,Radeon RX 580 Series,4385,72,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2556083
+2556068,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,AMD Radeon RX 580 2048SP,1202,20,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2556068
+2556028,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz,Radeon RX 580 Series,3811,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2556028
+2555843,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,4086,67,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2555843
+2555788,FurMark (GL),,Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz,AMD Radeon RX 580 2048SP,2381,39,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2555788
+2555773,FurMark (GL),,Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz,Radeon RX 580 Series,3140,52,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2555773
+2555708,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,4106,68,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2555708
+2555623,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,3892,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2555623
+2555443,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,Radeon RX 580 Series,3845,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2555443
+2555238,FurMark (GL),,AMD A8-9600 RADEON R7 10 COMPUTE CORES 4C6G,Radeon RX 580 Series,3746,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2555238
+2554988,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,Radeon RX 580 Series,4122,68,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2554988
+2554958,FurMark (GL),,Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz,AMD Radeon RX 580 2048SP,3772,62,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2554958
+2554678,FurMark (GL),,Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz,AMD Radeon RX 580 2048SP,3807,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2554678
+2554488,FurMark (GL),,AMD Ryzen 7 5700G with Radeon Graphics,Radeon RX 580 Series,3731,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2554488
+2553413,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,2639,43,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2553413
+2553218,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,Radeon RX 580 Series,3851,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2553218
+2552903,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz,AMD Radeon RX 580 2048SP,2863,47,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2552903
+2552758,FurMark (GL),,Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz,Radeon RX 580 Series,3682,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2552758
+2552538,FurMark (GL),,AMD Ryzen 5 5500,Radeon RX 580 Series,3602,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2552538
+2551748,FurMark (GL),,12th Gen Intel(R) Core(TM) i3-12100F,Radeon RX 580 Series,3818,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2551748
+2551498,FurMark (GL),,AMD Ryzen 5 4600G with Radeon Graphics,Radeon RX 580 Series,3327,55,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2551498
+2551228,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,3721,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2551228
+2551218,FurMark (GL),,Intel(R) Celeron(R) CPU G1820 @ 2.70GHz,AMD Radeon RX 580 2048SP,3368,55,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2551218
+2551128,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,1903,31,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2551128
+2551033,FurMark (GL),,AMD Athlon(tm) X4 740 Quad Core Processor,AMD Radeon RX 580 2048SP,3532,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2551033
+2550648,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,2885,48,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2550648
+2550538,FurMark (GL),,Intel(R) Core(TM) i5-4460S CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,1613,26,2560x1440,60000,Windows 10 build 18363,,https://gpumagick.com/scores/2550538
+2550308,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1245 v5 @ 3.50GHz,Radeon RX 580 Series,3626,60,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2550308
+2550213,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400F,Radeon RX 580 Series,3943,65,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2550213
+2550063,FurMark (GL),,Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz,AMD Radeon RX 580 2048SP,3675,61,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2550063
+2550008,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,2864,47,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2550008
+2549913,FurMark (GL),,AMD Ryzen 7 1700 Eight-Core Processor,Radeon RX 580 Series,3591,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2549913
+2549888,FurMark (GL),,11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz,Radeon RX 580 Series,3492,58,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2549888
+2549823,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,3500,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2549823
+2549813,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,3517,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2549813
+2549693,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,Radeon RX 580 Series,3841,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2549693
+2549628,FurMark (GL),,AMD Ryzen 5 5500,Radeon RX 580 Series,3784,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2549628
+2549488,FurMark (GL),,Intel(R) Core(TM) i7-10700F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3373,55,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2549488
+2549423,FurMark (GL),,Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz,AMD Radeon RX 580 2048SP,855,14,1920x1080,60000,Windows 10 build 19041,,https://gpumagick.com/scores/2549423
+2549398,FurMark (GL),,Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz,Radeon RX 580 Series,2921,48,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2549398
+2549058,FurMark (GL),,Intel(R) Pentium(R) Gold G5400 CPU @ 3.70GHz,Radeon RX 580 Series,443,10,1920x1080,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2549058
+2549043,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,Radeon RX 580 Series,3724,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2549043
+2549008,FurMark (GL),,Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz,Radeon RX 580 Series,3817,63,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2549008
+2548648,FurMark (GL),,AMD FX(tm)-8320 Eight-Core Processor,Radeon RX 580 Series,3669,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2548648
+2548283,FurMark (GL),,Intel(R) Core(TM) i7-14700K,Radeon RX 580 Series,4254,70,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2548283
+2547768,FurMark (GL),,AMD Ryzen 5 PRO 4650G with Radeon Graphics,Radeon RX 580 Series,4025,66,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2547768
+2547328,FurMark (GL),,Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz,Radeon RX 580 Series,3719,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2547328
+2546833,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,AMD Radeon RX 580 2048SP,2494,42,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2546833
+2546623,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1220 v3 @ 3.10GHz,Radeon RX 580 Series,3832,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2546623
+2546118,FurMark (GL),,Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3331,55,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2546118
+2546073,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,Radeon RX 580 Series,3603,60,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2546073
+2545748,FurMark (GL),,Intel(R) Core(TM) i5-3340 CPU @ 3.10GHz,Radeon RX 580 Series,3836,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2545748
+2545588,FurMark (GL),,AMD Ryzen 5 1400 Quad-Core Processor,Radeon RX 580 Series,4058,67,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2545588
+2545123,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3411,56,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2545123
+2545113,FurMark (GL),,Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,3552,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2545113
+2545048,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3575,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2545048
+2544908,FurMark (GL),,Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz,Radeon RX 580 Series,3697,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2544908
+2544823,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,Radeon RX 580 Series,3527,58,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2544823
+2544733,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2689 0 @ 2.60GHz,AMD Radeon RX 580 2048SP,3424,56,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2544733
+2544593,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1245 v5 @ 3.50GHz,Radeon RX 580 Series,3620,59,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2544593
+2544428,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,AMD Radeon RX 580 2048SP,2744,45,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2544428
+2544268,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,3928,65,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2544268
+2543553,FurMark (GL),,12th Gen Intel(R) Core(TM) i3-12100,Radeon RX 580 Series,3629,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2543553
+2543408,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3250,53,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2543408
+2543323,FurMark (GL),,Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,3578,59,1920x1080,60000,Windows 11 build 22000,,https://gpumagick.com/scores/2543323
+2543303,FurMark (GL),,Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz,Radeon RX 580 Series,2287,38,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2543303
+2543293,FurMark (GL),,AMD Ryzen 7 3700X 8-Core Processor,AMD Radeon RX 580 2048SP,2331,39,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2543293
+2543123,FurMark (GL),,AMD Ryzen 3 4100 4-Core Processor,Radeon RX 580 Series,3626,60,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2543123
+2542938,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,4163,69,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2542938
+2542928,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2643 v2 @ 3.50GHz,AMD Radeon RX 580 2048SP,995,16,3840x2160,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2542928
+2542873,FurMark (GL),,AMD Ryzen 5 7500F 6-Core Processor,Radeon RX 580 Series,2588,43,2560x1440,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2542873
+2542763,FurMark (GL),,Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz,AMD Radeon RX 580 2048SP,3079,48,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2542763
+2542738,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,Radeon RX 580 Series,3777,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2542738
+2542583,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,3376,55,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2542583
+2542398,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,3563,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2542398
+2541808,FurMark (GL),,Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz,Radeon RX 580 Series,3878,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2541808
+2541788,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,Radeon RX 580 Series,4078,67,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2541788
+2541583,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3246,53,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2541583
+2541083,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3045,50,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2541083
+2541043,FurMark (GL),,Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz,Radeon RX 580 Series,3266,54,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2541043
+2540758,FurMark (GL),,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,AMD Radeon RX 580 2048SP (radeonsi polaris10 ACO DRM 3.64 6.17.0-20-generic),3365,56,1920x1080,60000,Linux 6.17.0-20-generic 64-bit,,https://gpumagick.com/scores/2540758
+2540393,FurMark (GL),,AMD FX(tm)-6300 Six-Core Processor,Radeon RX 580 Series,4042,67,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2540393
+2540228,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3521,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2540228
+2540153,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,Radeon RX 580 Series,3887,64,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2540153
+2539958,FurMark (GL),,AMD Ryzen 5 5500,Radeon RX 580 Series,4156,69,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2539958
+2539873,FurMark (GL),,AMD Ryzen 3 3200GE with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,2981,49,1920x1080,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2539873
+2539828,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3885,64,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2539828
+2539793,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12600K,Radeon RX 580 Series,3835,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2539793
+2539378,FurMark (GL),,AMD Ryzen 5 PRO 4650G with Radeon Graphics,Radeon RX 580 Series,1347,22,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2539378
+2539063,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,Radeon RX 580 Series,3860,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2539063
+2538823,FurMark (GL),,AMD Ryzen 5 7500F 6-Core Processor,Radeon RX 580 Series,3801,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2538823
+2537898,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3358,55,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2537898
+2537808,FurMark (GL),,Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz,Radeon RX 580 Series,2300,38,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2537808
+2537793,FurMark (GL),,AMD Ryzen 5 5600GT with Radeon Graphics,Radeon RX 580 Series,4035,67,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2537793
+2537713,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,4068,67,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2537713
+2537408,FurMark (GL),,Intel(R) Core(TM) i3-9100 CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,281,4,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2537408
+2537358,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1245 v5 @ 3.50GHz,Radeon RX 580 Series,3679,61,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2537358
+2537248,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1245 v5 @ 3.50GHz,Radeon RX 580 Series,3609,60,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2537248
+2537203,FurMark (GL),,Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz,Radeon RX 580 Series,3830,63,1920x1080,60000,Windows 10 build 17763,,https://gpumagick.com/scores/2537203
+2536783,FurMark (GL),,AMD Ryzen 5 4500 6-Core Processor,Radeon RX 580 Series,4034,67,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2536783
+2536758,FurMark (GL),,Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz,Radeon RX 580 Series,3723,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2536758
+2536738,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,AMD Radeon RX 580 2048SP,3546,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2536738
+2536488,FurMark (GL),,Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz,Radeon RX 580 Series,3725,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2536488
+2536483,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,2315,38,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2536483
+2536418,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400F,Radeon RX 580 Series,1467,25,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2536418
+2536318,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,Radeon RX 580 Series,4331,71,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2536318
+2536203,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,3097,51,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2536203
+2535763,FurMark (GL),,AMD Ryzen 5 4500 6-Core Processor,Radeon RX 580 Series,1344,22,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2535763
+2535708,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,3745,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2535708
+2535518,FurMark (GL),,AMD Ryzen 5 1500X Quad-Core Processor,AMD Radeon RX 580 2048SP,3271,54,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2535518
+2535248,FurMark (GL),,Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz,Radeon RX 580 Series,3540,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2535248
+2535058,FurMark (GL),,Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz,Radeon RX 580 Series,3723,61,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2535058
+2534878,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,AMD Radeon RX 580 2048SP,3284,54,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2534878
+2534523,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,1628,27,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2534523
+2533388,FurMark (GL),,Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz,Radeon RX 580 Series,3292,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2533388
+2533373,FurMark (GL),,Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz,Radeon RX 580 Series,3591,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2533373
+2533228,FurMark (GL),,AMD Ryzen 5 5500,Radeon RX 580 Series,3787,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2533228
+2532923,FurMark (GL),,AMD Ryzen 7 5700G with Radeon Graphics,AMD Radeon RX 580 2048SP,3113,51,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2532923
+2532833,FurMark (GL),,AMD FX(tm)-6200 Six-Core Processor,AMD Radeon RX 580 2048SP,3583,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2532833
+2532683,FurMark (GL),,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,Radeon RX 580 Series,2274,37,3440x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2532683
+2532478,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,2822,46,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2532478
+2532258,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,3048,50,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2532258
+2532188,FurMark (GL),,Intel(R) Core(TM) i7-4771 CPU @ 3.50GHz,AMD Radeon RX 580 2048SP,3477,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2532188
+2532003,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,Radeon RX 580 Series,3895,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2532003
+2531983,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,Radeon RX 580 Series,3415,56,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2531983
+2531898,FurMark (GL),,Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz,Radeon RX 580 Series,4196,69,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2531898
+2531883,FurMark (GL),,Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3546,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2531883
+2531453,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,2049,34,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2531453
+2531238,FurMark (GL),,Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,2334,38,1920x1080,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2531238
+2531048,FurMark (GL),,Intel(R) Core(TM) i7-14700F,Radeon RX 580 Series,2639,43,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2531048
+2530843,FurMark (GL),,Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,2213,36,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2530843
+2530813,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2689 0 @ 2.60GHz,Radeon RX 580 Series,2440,40,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2530813
+2530233,FurMark (GL),,Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz,Radeon RX 580 Series,4220,70,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2530233
+2530113,FurMark (GL),,Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz,Radeon RX 580 Series,4120,68,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2530113
+2529953,FurMark (GL),,Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3170,52,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2529953
+2529908,FurMark (GL),,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,Radeon RX 580 Series,3591,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2529908
+2529718,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3889,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2529718
+2529563,FurMark (GL),,AMD Ryzen 7 1700 Eight-Core Processor,Radeon RX 580 Series,696,11,1920x1080,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2529563
+2529533,FurMark (GL),,AMD Ryzen 5 5500,Radeon RX 580 Series,3458,57,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2529533
+2529353,FurMark (GL),,AMD Ryzen 7 8700F 8-Core Processor,Radeon RX 580 Series,3638,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2529353
+2529328,FurMark (GL),,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,Radeon RX 580 Series,3846,63,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2529328
+2529173,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,1008,16,3840x2160,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2529173
+2529138,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,3615,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2529138
+2528943,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,Radeon RX 580 Series,2886,48,1920x1080,60000,Windows 11 build 22000,,https://gpumagick.com/scores/2528943
+2528228,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,2540,42,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2528228
+2528223,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,2850,48,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2528223
+2527968,FurMark (GL),,11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz,AMD Radeon RX 580 2048SP,2384,39,1920x1080,60000,Windows 10 build 18363,,https://gpumagick.com/scores/2527968
+2527958,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,AMD Radeon RX 580 2048SP,3425,57,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2527958
+2527833,FurMark (GL),,Intel(R) Core(TM) i5-2500K CPU @ 3.30GHz,Radeon RX 580 Series,3378,56,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2527833
+2527733,FurMark (GL),,Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz,AMD Radeon RX 580 2048SP,2072,34,2560x1440,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2527733
+2527693,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3390,56,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2527693
+2527553,FurMark (GL),,Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz,AMD Radeon RX 580 2048SP,3255,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2527553
+2527528,FurMark (GL),,Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz,AMD Radeon RX 580 2048SP,3256,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2527528
+2527498,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,1436,23,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2527498
+2527008,FurMark (GL),,Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz,Radeon RX 580 Series,1406,23,3840x2160,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2527008
+2526898,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz,Radeon RX 580 Series,2119,35,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2526898
+2526313,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,3346,55,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2526313
+2526153,FurMark (GL),,Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz,AMD Radeon RX 580 2048SP,3493,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2526153
+2525973,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,2356,39,2560x1440,60000,Windows 11 build 28000,,https://gpumagick.com/scores/2525973
+2525573,FurMark (GL),,Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,2948,49,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2525573
+2525543,FurMark (GL),,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,3118,51,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2525543
+2525483,FurMark (GL),,Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz,Radeon RX 580 Series,3677,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2525483
+2525273,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3811,63,1920x1080,60000,Windows 11 build 28000,,https://gpumagick.com/scores/2525273
+2525098,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz,Radeon RX 580 Series,3647,60,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2525098
+2524973,FurMark (GL),,AMD Ryzen 5 2600X Six-Core Processor,Radeon RX 580 Series,3680,61,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2524973
+2524923,FurMark (GL),,AMD Ryzen 9 3900X 12-Core Processor,Radeon RX 580 Series,4078,67,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2524923
+2524908,FurMark (GL),,12th Gen Intel(R) Core(TM) i3-12100F,Radeon RX 580 Series,3756,62,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2524908
+2524008,FurMark (GL),,AMD Ryzen 9 3900X 12-Core Processor,AMD Radeon RX 580 2048SP,2949,49,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2524008
+2523973,FurMark (GL),,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,Radeon RX 580 Series,3589,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2523973
+2523443,FurMark (GL),,Intel(R) Xeon(R) CPU E5-1650 v4 @ 3.60GHz,Radeon RX 580 Series,3794,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2523443
+2523353,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz,AMD Radeon RX 580 2048SP,3613,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2523353
+2522943,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,3641,60,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2522943
+2522903,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,3539,58,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2522903
+2522648,FurMark (GL),,Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz,Radeon RX 580 Series,4153,68,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2522648
+2522603,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,1566,26,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2522603
+2522588,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,3752,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2522588
+2522468,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,2748,45,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2522468
+2522398,FurMark (GL),,12th Gen Intel(R) Core(TM) i5-12400,AMD Radeon RX 580 2048SP,3406,56,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2522398
+2522348,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1270 v3 @ 3.50GHz,AMD Radeon RX 580 2048SP,2753,45,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2522348
+2522323,FurMark (GL),,AMD Ryzen 3 3200G with Radeon Vega Graphics,AMD Radeon RX 580 2048SP,2367,39,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2522323
+2521818,FurMark (GL),,Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz,AMD Radeon RX 580 2048SP,3195,53,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2521818
+2521618,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2697 v3 @ 2.60GHz,AMD Radeon RX 580 2048SP,4204,69,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2521618
+2521563,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,Radeon RX 580 Series,3813,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2521563
+2521513,FurMark (GL),,Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,2618,43,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2521513
+2521383,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3449,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2521383
+2521353,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,3896,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2521353
+2521168,FurMark (GL),,AMD Ryzen 5 1600 Six-Core Processor,Radeon RX 580 Series,3599,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2521168
+2520953,FurMark (GL),,Intel(R) Core(TM) i5-4430 CPU @ 3.00GHz,AMD Radeon RX 580 2048SP,903,15,3840x2160,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2520953
+2520948,FurMark (GL),,Intel(R) Core(TM) i5-4430 CPU @ 3.00GHz,AMD Radeon RX 580 2048SP,2821,46,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2520948
+2520913,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3458,57,1920x1080,60000,Windows 10 build 19042,,https://gpumagick.com/scores/2520913
+2520848,FurMark (GL),,Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz,Radeon RX 580 Series,3812,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2520848
+2519898,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz,AMD Radeon RX 580 2048SP,3639,60,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2519898
+2519668,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2689 0 @ 2.60GHz,AMD Radeon RX 580 2048SP,2566,42,1920x1080,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2519668
+2519328,FurMark (GL),,Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,3032,50,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2519328
+2519023,FurMark (GL),,AMD Ryzen 5 1600 Six-Core Processor,Radeon RX 580 Series,3779,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2519023
+2518693,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,Radeon RX 580 Series,3796,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2518693
+2518658,FurMark (GL),,AMD Ryzen 5 7600X 6-Core Processor,Radeon RX 580 Series,3782,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2518658
+2518643,FurMark (GL),,AMD Ryzen 5 7600X 6-Core Processor,Radeon RX 580 Series,3788,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2518643
+2518623,FurMark (GL),,AMD Ryzen 5 7600X 6-Core Processor,Radeon RX 580 Series,3723,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2518623
+2518608,FurMark (GL),,AMD Ryzen 5 7600X 6-Core Processor,Radeon RX 580 Series,3703,61,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2518608
+2518578,FurMark (GL),,AMD Ryzen 5 7600X 6-Core Processor,Radeon RX 580 Series,3336,56,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2518578
+2518553,FurMark (GL),,AMD Ryzen 5 3400G with Radeon Vega Graphics,Radeon RX 580 Series,2559,42,2560x1440,60000,Windows 11 build 22631,,https://gpumagick.com/scores/2518553
+2518333,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1270 V2 @ 3.50GHz,AMD Radeon RX 580 2048SP,2684,44,1920x1080,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2518333
+2518193,FurMark (GL),,Intel(R) Core(TM) i5-4690 CPU @ 3.50GHz,Radeon RX 580 Series,3584,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2518193
+2518138,FurMark (GL),,Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,2927,48,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2518138
+2518008,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,AMD Radeon RX 580 2048SP,3467,57,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2518008
+2517778,FurMark (GL),,Intel(R) Xeon(R) CPU E5-1620 0 @ 3.60GHz,Radeon RX 580 Series,4408,73,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2517778
+2517728,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,2833,47,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2517728
+2517693,FurMark (GL),,Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz,Radeon RX 580 Series,4441,73,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2517693
+2517668,FurMark (GL),,AMD Ryzen 3 1200 Quad-Core Processor,Radeon RX 580 Series,3579,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2517668
+2517598,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,AMD Radeon RX 580 2048SP,3422,56,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2517598
+2517253,FurMark (GL),,Intel(R) Core(TM) i5-3570 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,2990,49,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2517253
+2517238,FurMark (GL),,AMD Ryzen 7 3700X 8-Core Processor,AMD Radeon RX 580 2048SP,3461,57,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2517238
+2516778,FurMark (GL),,AMD Ryzen 7 5700X3D 8-Core Processor,AMD Radeon RX 580 2048SP,3173,52,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2516778
+2516653,FurMark (GL),,AMD Ryzen 5 3500X 6-Core Processor,AMD Radeon RX 580 2048SP,3356,55,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2516653
+2516373,FurMark (GL),,Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,3434,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2516373
+2515868,FurMark (GL),,AMD A10-7860K Radeon R7 12 Compute Cores 4C8G,AMD Radeon RX 580 2048SP,3173,52,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2515868
+2515748,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz,Radeon RX 580 Series,4554,75,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2515748
+2515693,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3879,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2515693
+2515563,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz,AMD Radeon RX 580 2048SP,3154,52,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2515563
+2515543,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,Radeon RX 580 Series,2766,46,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2515543
+2515388,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,3332,55,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2515388
+2515323,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,3100,51,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2515323
+2515318,FurMark (GL),,AMD Ryzen 5 8400F 6-Core Processor,Radeon RX 580 Series,4020,66,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2515318
+2515143,FurMark (GL),,Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz,AMD Radeon RX 580 2048SP,3289,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2515143
+2515078,FurMark (GL),,Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz,AMD Radeon RX 580 2048SP,3502,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2515078
+2515003,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3787,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2515003
+2514998,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3769,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2514998
+2514973,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3699,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2514973
+2514968,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3577,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2514968
+2514253,FurMark (GL),,Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz,AMD Radeon RX 580 Series (radeonsi polaris10 ACO DRM 3.64 6.17.0-19-generic),4054,67,1920x1080,60000,Linux 6.17.0-19-generic 64-bit,,https://gpumagick.com/scores/2514253
+2514148,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz,AMD Radeon RX 580 2048SP,3457,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2514148
+2513993,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,3865,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2513993
+2513958,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,AMD Radeon RX 580 2048SP,4037,67,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2513958
+2513823,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,AMD Radeon RX 580 2048SP,1943,32,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2513823
+2513783,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,3802,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2513783
+2513513,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,Radeon RX 580 Series,3684,61,1920x1080,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2513513
+2513483,FurMark (GL),,AMD Ryzen 5 3500 6-Core Processor,AMD Radeon RX 580 2048SP,3000,49,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2513483
+2513438,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,Radeon RX 580 Series,3831,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2513438
+2513433,FurMark (GL),,AMD Ryzen 5 5600G with Radeon Graphics,Radeon RX 580 Series,3541,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2513433
+2513413,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3893,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2513413
+2513388,FurMark (GL),,Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,1101,19,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2513388
+2513018,FurMark (GL),,AMD Ryzen 5 1600 Six-Core Processor,Radeon RX 580 Series,3774,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2513018
+2512968,FurMark (GL),,Intel(R) Xeon(R) CPU           X3470  @ 2.93GHz,AMD Radeon RX 580 2048SP,3485,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2512968
+2511668,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz,Radeon RX 580 Series,3959,65,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2511668
+2511623,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,Radeon RX 580 Series,3870,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2511623
+2511613,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,Radeon RX 580 Series,4052,67,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2511613
+2511418,FurMark (GL),,AMD Ryzen 7 8700F 8-Core Processor,Radeon RX 580 Series,3640,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2511418
+2511278,FurMark (GL),,Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,3834,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2511278
+2511233,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,AMD Radeon RX 580 2048SP,3509,58,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2511233
+2510953,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,AMD Radeon RX 580 2048SP,3854,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2510953
+2510738,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,Radeon RX 580 Series,3767,62,1920x1080,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2510738
+2510733,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,Radeon RX 580 Series,4188,69,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2510733
+2510498,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,AMD Radeon RX 580 2048SP,3263,54,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2510498
+2510488,FurMark (GL),,AMD Ryzen 5 4500 6-Core Processor,Radeon RX 580 Series,4351,72,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2510488
+2510478,FurMark (GL),,Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,2426,40,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2510478
+2510113,FurMark (GL),,AMD Ryzen 7 3700X 8-Core Processor,Radeon RX 580 Series,3820,62,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2510113
+2509963,FurMark (GL),,AMD Ryzen 5 1600 Six-Core Processor,AMD Radeon RX 580 2048SP,3276,54,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2509963
+2509933,FurMark (GL),,Intel(R) Core(TM) i5-3570 CPU @ 3.40GHz,Radeon RX 580 Series,3630,60,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2509933
+2509928,FurMark (GL),,AMD Ryzen 7 8700F 8-Core Processor,Radeon RX 580 Series,3632,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2509928
+2509778,FurMark (GL),,Intel(R) Core(TM) i3-4350 CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,3011,50,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2509778
+2509678,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,Radeon RX 580 Series,3752,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2509678
+2509628,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3726,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2509628
+2509613,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,Radeon RX 580 Series,3992,66,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2509613
+2509253,FurMark (GL),,Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz,Radeon RX 580 Series,4423,73,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2509253
+2508963,FurMark (GL),,Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz,AMD Radeon RX 580 2048SP,2676,44,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2508963
+2508588,FurMark (GL),,AMD Ryzen 7 1700X Eight-Core Processor,AMD Radeon RX 580 2048SP,3528,58,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2508588
+2508458,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,Radeon RX 580 Series,3829,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2508458
+2508433,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz,Radeon RX 580 Series,3815,63,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2508433
+2507883,FurMark (GL),,AMD Ryzen 5 5600 6-Core Processor,AMD Radeon RX 580 2048SP,2936,48,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2507883
+2507143,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2689 0 @ 2.60GHz,AMD Radeon RX 580 2048SP,3377,56,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2507143
+2506948,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz,AMD Radeon RX 580 2048SP,3153,52,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2506948
+2506873,FurMark (GL),,AMD FX(tm)-8350 Eight-Core Processor,Radeon RX 580 Series,3787,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2506873
+2506728,FurMark (GL),,Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,3246,54,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2506728
+2506358,FurMark (GL),,Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz,AMD Radeon RX 580 2048SP,3758,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2506358
+2506353,FurMark (GL),,Intel(R) Core(TM) i5-4690 CPU @ 3.50GHz,Radeon RX 580 Series,3615,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2506353
+2506328,FurMark (GL),,AMD Ryzen 7 2700X Eight-Core Processor,Radeon RX 580 Series,3826,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2506328
+2506198,FurMark (GL),,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,Radeon RX 580 Series,3605,60,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2506198
+2505853,FurMark (GL),,AMD Ryzen 5 2600X Six-Core Processor,Radeon RX 580 Series,3914,65,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2505853
+2505713,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,Radeon RX 580 Series,3569,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2505713
+2505623,FurMark (GL),,AMD Ryzen 7 5700G with Radeon Graphics,Radeon RX 580 Series,3633,60,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2505623
+2505558,FurMark (GL),,Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz,Radeon RX 580 Series,4230,70,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2505558
+2505488,FurMark (GL),,AMD FX(tm)-8350 Eight-Core Processor,Radeon RX 580 Series,3796,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2505488
+2505493,FurMark (GL),,AMD Ryzen 7 5700G with Radeon Graphics,Radeon RX 580 Series,3787,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2505493
+2505413,FurMark (GL),,AMD Ryzen 5 2600 Six-Core Processor,Radeon RX 580 Series,3059,50,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2505413
+2505393,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz,AMD Radeon RX 580 2048SP,2912,48,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2505393
+2505383,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz,AMD Radeon RX 580 2048SP,2840,47,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2505383
+2505268,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,Radeon RX 580 Series,4491,74,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2505268
+2505138,FurMark (GL),,AMD Ryzen 5 5600X 6-Core Processor,Radeon RX 580 Series,3663,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2505138
+2505108,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,AMD Radeon RX 580 2048SP,1794,29,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2505108
+2505083,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,AMD Radeon RX 580 2048SP,2285,38,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2505083
+2504073,FurMark (GL),,AMD Ryzen 5 3600 6-Core Processor,Radeon RX 580 Series,3848,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2504073
+2503938,FurMark (GL),,Intel(R) Core(TM) i5-10500 CPU @ 3.10GHz,AMD Radeon RX 580 2048SP,3764,62,1920x1080,60000,Windows 11 build 26100,,https://gpumagick.com/scores/2503938
+2503803,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1240 V2 @ 3.40GHz,Radeon RX 580 Series,4076,67,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2503803
+2503773,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,AMD Radeon RX 580 2048SP,3541,58,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2503773
+2503508,FurMark (GL),,Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz,Radeon RX 580 Series,1210,20,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2503508
+2503478,FurMark (GL),,AMD Ryzen 5 5500,AMD Radeon RX 580 2048SP,3564,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2503478
+2502878,FurMark (GL),,Intel(R) Core(TM) i5-4430S CPU @ 2.70GHz,Radeon RX 580 Series,3890,64,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2502878
+2502548,FurMark (GL),,AMD Ryzen 5 PRO 3400G with Radeon Vega Graphics,Radeon RX 580 Series,3718,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2502548
+2502143,FurMark (GL),,AMD Ryzen 5 5600GT with Radeon Graphics,Radeon RX 580 Series,1997,33,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2502143
+2501748,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2697 v3 @ 2.60GHz,Radeon RX 580 Series,3724,61,1920x1080,60000,Windows 10 build 19042,,https://gpumagick.com/scores/2501748
+2501043,FurMark (GL),,Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz,AMD Radeon RX 580 2048SP,2133,35,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2501043
+2499873,FurMark (GL),,Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz,Radeon RX 580 Series,3824,63,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2499873
+2499863,FurMark (GL),,Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz,Radeon RX 580 Series,3696,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2499863
+2499788,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz,Radeon RX 580 Series,3595,59,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2499788
+2499588,FurMark (GL),,Intel(R) Core(TM) i5-14490F,AMD Radeon RX 580 2048SP,3418,56,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2499588
+2499273,FurMark (GL),,Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz,AMD Radeon RX 580 2048SP,3735,62,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2499273
+2499183,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,AMD Radeon RX 580 2048SP,2401,39,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2499183
+2499088,FurMark (GL),,AMD Ryzen 5 5500,Radeon RX 580 Series,3687,61,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2499088
+2499018,FurMark (GL),,Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,Radeon RX 580 Series,3928,65,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2499018
+2498843,FurMark (GL),,12th Gen Intel(R) Core(TM) i3-12100,Radeon RX 580 Series,3942,64,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2498843
+2498743,FurMark (GL),,Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz,AMD Radeon RX 580 2048SP,3441,57,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2498743
+2498658,FurMark (GL),,Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz,Radeon RX 580 Series,3790,63,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2498658
+2498463,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz,AMD Radeon RX 580 2048SP,3141,52,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2498463
+2498433,FurMark (GL),,AMD Ryzen 7 5700X 8-Core Processor,Radeon RX 580 Series,4044,67,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2498433
+2498288,FurMark (GL),,Intel(R) Xeon(R) CPU E5-2420 v2 @ 2.20GHz,AMD Radeon RX 580 2048SP,2239,35,2560x1440,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2498288
+2497493,FurMark (GL),,Intel(R) Core(TM) i3-10105F CPU @ 3.70GHz,Radeon RX 580 Series,4371,72,1920x1080,60000,Windows 10 build 19044,,https://gpumagick.com/scores/2497493
+2497458,FurMark (GL),,Intel(R) Core(TM) i7-4770TE CPU @ 2.30GHz,AMD Radeon RX 580 2048SP,3366,55,1920x1080,60000,Windows 10 build 19045,,https://gpumagick.com/scores/2497458
+2497208,FurMark (GL),,AMD Ryzen 7 3700X 8-Core Processor,Radeon RX 580 Series,3588,59,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2497208
+2497058,FurMark (GL),,AMD Ryzen 5 3600X 6-Core Processor,AMD Radeon RX 580 2048SP,2955,49,1920x1080,60000,Windows 11 build 22621,,https://gpumagick.com/scores/2497058
+2497018,FurMark (GL),,Intel(R) Core(TM) i9-14900,AMD Radeon RX 580 2048SP,3404,56,1920x1080,60000,Windows 11 build 26200,,https://gpumagick.com/scores/2497018
