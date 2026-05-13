@@ -4,3 +4,4 @@ plotly
 aiohttp
 aiosqlite
 psutil
+sqlmodel

@@ -1,10 +1,11 @@
-from dataclasses import dataclass, asdict
 from typing import Optional
 from datetime import datetime
+from sqlmodel import SQLModel, Field
 
-@dataclass
-class GpuScore:
-    score_id: str
+class GpuScore(SQLModel, table=True):
+    __tablename__ = "scores"
+    
+    score_id: str = Field(primary_key=True)
     benchmark_type: str
     submitted_date: str
     cpu: str
@@ -13,11 +14,8 @@ class GpuScore:
     score: int
     fps: float
     resolution: str
-    duration_ms: Optional[int]
+    duration_ms: Optional[int] = None
     os: str
     driver: str
     url: str
-    scraped_at: Optional[str] = None
-
-    def to_dict(self):
-        return asdict(self)
+    scraped_at: datetime = Field(default_factory=datetime.utcnow)
