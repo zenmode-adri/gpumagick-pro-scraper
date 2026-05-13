@@ -28,6 +28,7 @@ I built this tool to collect data from thousands of pages to build a more compre
    ```bash
    streamlit run app.py
    ```
+   *Note: The app will typically open automatically in your browser at `http://localhost:8501`.*
 
 ---
 
@@ -55,6 +56,7 @@ Creé esta herramienta para recoger datos de miles de páginas y construir una b
    ```bash
    streamlit run app.py
    ```
+   *Nota: La aplicación se abrirá automáticamente en tu navegador en `http://localhost:8501`.*
 
 ---
 *Project created to find the best hardware value / Proyecto creado para encontrar el mejor valor en hardware.*
