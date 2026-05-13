@@ -1,0 +1,6 @@
+streamlit
+pandas
+plotly
+aiohttp
+aiosqlite
+psutil

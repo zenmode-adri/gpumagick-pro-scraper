@@ -22,7 +22,7 @@ I built this tool to collect data from thousands of pages to build a more compre
 1. **Prerequisites:** Python 3.9+
 2. **Install Dependencies:**
    ```bash
-   pip install streamlit pandas plotly aiohttp aiosqlite psutil
+   pip install -r requirements.txt
    ```
 3. **Run Application:**
    ```bash
@@ -58,7 +58,7 @@ Creé esta herramienta para recoger datos de miles de páginas y construir una b
 1. **Requisitos:** Python 3.9+
 2. **Instalación:**
    ```bash
-   pip install streamlit pandas plotly aiohttp aiosqlite psutil
+   pip install -r requirements.txt
    ```
 3. **Ejecución:**
    ```bash
