@@ -30,6 +30,14 @@ I built this tool to collect data from thousands of pages to build a more compre
    ```
    *Note: The app will typically open automatically in your browser at `http://localhost:8501`.*
 
+### 🗺️ Roadmap
+- [ ] Add support for more benchmark types (3DMark, Superposition).
+- [ ] Implement price history tracking for CPUs.
+- [ ] Automated PDF reporting for specific GPU comparisons.
+
+### ⚠️ Disclaimer
+This tool is for **educational and personal analysis purposes only**. Please use it responsibly and respect GPUMagick's Terms of Service and `robots.txt` guidelines.
+
 ---
 
 <a name="español"></a>
@@ -58,8 +66,16 @@ Creé esta herramienta para recoger datos de miles de páginas y construir una b
    ```
    *Nota: La aplicación se abrirá automáticamente en tu navegador en `http://localhost:8501`.*
 
+### 🗺️ Roadmap (Próximos Pasos)
+- [ ] Añadir soporte para más tipos de benchmarks (3DMark, Superposition).
+- [ ] Implementar seguimiento de historial de precios para CPUs.
+- [ ] Generación automática de reportes PDF para comparativas de GPUs.
+
+### ⚠️ Descargo de Responsabilidad
+Esta herramienta se ha creado únicamente con fines **educativos y de análisis personal**. Por favor, úsala de forma responsable y respeta los Términos de Servicio de GPUMagick y las directivas de su archivo `robots.txt`.
+
 ---
-*Project created to find the best hardware value / Proyecto creado para encontrar el mejor valor en hardware.*
+**📜 License / Licencia:** MIT
 
 ## 📸 Visual Showcase / Vista Previa
 
