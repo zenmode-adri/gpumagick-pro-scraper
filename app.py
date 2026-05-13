@@ -888,13 +888,13 @@ if page == "Scraper":
         with c3:
             e_id = st.number_input(t("end_id"), value=2125523)
         with c4:
-            wrk = st.number_input(t("workers"), value=8, min_value=1, max_value=30)
+            wrk = st.number_input(t("workers"), value=1, min_value=1, max_value=30)
             
         with st.expander(t("adv_opts")):
             a1, a2, a3 = st.columns(3)
             stride = a1.number_input(t("stride"), value=1, min_value=1)
             max_r  = a2.number_input(t("max_res"), value=10000)
-            dly    = a3.number_input(t("delay"), value=0.5, step=0.1, min_value=0.1)
+            dly    = a3.number_input(t("delay"), value=10.0, step=0.5, min_value=0.1)
 
         st.markdown('<div style="height:0.5rem"></div>', unsafe_allow_html=True)
         _, btn_col = st.columns([4, 1])

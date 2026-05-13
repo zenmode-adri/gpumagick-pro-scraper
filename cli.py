@@ -8,8 +8,9 @@ def main():
     parser.add_argument("--start-id", type=int, required=True)
     parser.add_argument("--end-id", type=int, required=True)
     parser.add_argument("--stride", type=int, default=1)
-    parser.add_argument("--workers", type=int, default=10)
-    parser.add_argument("--delay", type=float, default=0.5)
+    parser.add_argument("--workers", type=int, default=1)
+    parser.add_argument("--delay", type=float, default=10.0)
+
     parser.add_argument("--gpu-filter", type=str, nargs="+")
     parser.add_argument("--db", type=str, default="gpumagick.db")
     parser.add_argument("--max-results", type=int, default=2000)

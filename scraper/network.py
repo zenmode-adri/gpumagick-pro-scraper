@@ -13,7 +13,7 @@ USER_AGENTS = [
 ]
 
 class AsyncHttpClient:
-    def __init__(self, max_concurrent: int = 5, base_delay: float = 0.5):
+    def __init__(self, max_concurrent: int = 1, base_delay: float = 10.0):
         self.semaphore = asyncio.Semaphore(max_concurrent)
         self.base_delay = base_delay
         self.current_delay = base_delay

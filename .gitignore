@@ -6,6 +6,12 @@ __pycache__/
 # Caches
 .gpumagick_cache/
 .streamlit/
+BACKUP_PRO/
+
+# Secrets
+.env
+.env.*
+.netrc
 
 # Data and Databases
 gpumagick.db

@@ -14,8 +14,8 @@ class ScraperOrchestrator:
                  start_id: int, 
                  end_id: int, 
                  stride: int = 1, 
-                 max_concurrent: int = 5,
-                 base_delay: float = 0.5,
+                 max_concurrent: int = 1,
+                 base_delay: float = 10.0,
                  db_path: str = "gpumagick.db",
                  status_file: str = "status.json"):
         self.start_id = start_id

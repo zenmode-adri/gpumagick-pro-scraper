@@ -14,6 +14,7 @@ He diseñado y supervisado la construcción de esta herramienta modular asíncro
 - **Interfaz "Pro-Dev":** Dashboard oscuro personalizado en Streamlit con telemetría en tiempo real.
 - **Persistencia Robusta:** Integración con SQLite para el manejo eficiente de miles de registros de GPUs.
 - **Control de Procesos Inteligente:** Gestión de procesos mediante PID para evitar motores huérfanos y asegurar la estabilidad del sistema.
+- **Scraping Ético:** Configurado por defecto con un delay de 10s para respetar los términos del servidor.
 
 ## 🏗️ Estructura del Proyecto
 
