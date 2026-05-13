@@ -24,8 +24,9 @@ gpumagick.db
 *.log
 status.json
 
-# Screenshots (opcional: si quieres subirlas quita estas líneas)
+# Screenshots
 shot_*.png
+!assets/screenshots/
 
 # OS files
 .DS_Store

@@ -28,3 +28,11 @@ Este proyecto no se trata solo de código; se trata de **orquestación**. He apr
 
 ---
 *Proyecto mantenido con orgullo por un entusiasta de la automatización en IT.*
+
+## 📸 Vista Previa del Sistema
+
+| Dashboard Principal | Análisis de Datos | Proceso de Extracción |
+| :---: | :---: | :---: |
+| ![Main UI](assets/screenshots/shot_final.png) | ![Analysis](assets/screenshots/shot_analysis.png) | ![Scraper](assets/screenshots/shot_scraping.png) |
+
+> *Nota: La estética del sistema está inspirada en terminales de alta fidelidad y dashboards de monitoreo profesional.*
