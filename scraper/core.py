@@ -85,6 +85,11 @@ class ScraperOrchestrator:
 
             try:
                 await self._process_id(client, score_id, gpu_filter, benchmark_types)
+                if client.circuit_broken:
+                    self.interrupted = True
+                    self.stats["status"] = "crashed: circuit breaker active (429)"
+                    logging.error("Circuit Breaker detectado en worker. Abortando.")
+                    break
                 if self.stats["checked"] % 5 == 0:
                     self._save_status()
             except Exception as e:

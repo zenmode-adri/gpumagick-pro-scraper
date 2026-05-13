@@ -22,6 +22,8 @@ class AsyncHttpClient:
         self.base_delay = base_delay
         self.current_delay = base_delay
         self.consecutive_errors = 0
+        self.consecutive_429s = 0
+        self.circuit_broken = False
         self.session: Optional[aiohttp.ClientSession] = None
 
     async def __aenter__(self):
@@ -42,6 +44,10 @@ class AsyncHttpClient:
         return {"User-Agent": random.choice(USER_AGENTS)}
 
     async def fetch(self, url: str) -> Tuple[Optional[str], int]:
+        if self.circuit_broken:
+            logging.error("Circuit Breaker activo. Abortando peticiones.")
+            return None, 503
+
         async with self.semaphore:
             # Jitter: Variación aleatoria del 20% para parecer humano
             jitter = self.current_delay * random.uniform(-0.2, 0.2)
@@ -53,18 +59,28 @@ class AsyncHttpClient:
                     status = response.status
                     if status == 200:
                         self.consecutive_errors = 0
+                        self.consecutive_429s = 0
                         # Recuperación gradual del delay
                         self.current_delay = max(self.base_delay, self.current_delay * 0.95)
                         return await response.text(), status
                     elif status == 429:
-                        self.current_delay = min(self.current_delay * 1.5, 30.0)
-                        logging.warning(f"Rate limit (429) en {url}. Delay aumentado a {self.current_delay:.1f}s")
+                        self.consecutive_429s += 1
+                        self.current_delay = min(self.current_delay * 1.5, 60.0)
+                        logging.warning(f"Rate limit (429) en {url}. Intento {self.consecutive_429s}/10. Delay: {self.current_delay:.1f}s")
+                        if self.consecutive_429s >= 10:
+                            self.circuit_broken = True
+                            logging.error("Circuit Breaker activado por exceso de 429. Deteniendo scraper.")
                     else:
                         self.consecutive_errors += 1
-                        logging.warning(f"HTTP {status} en {url}")
+                        logging.warning(f"HTTP {status} en {url}. Errores consecutivos: {self.consecutive_errors}")
+                        if self.consecutive_errors >= 20:
+                            self.circuit_broken = True
+                            logging.error("Circuit Breaker activado por exceso de errores genéricos.")
                     
                     return None, status
             except Exception as e:
                 self.consecutive_errors += 1
                 logging.error(f"Error en {url}: {e}")
+                if self.consecutive_errors >= 20:
+                    self.circuit_broken = True
                 return None, 0

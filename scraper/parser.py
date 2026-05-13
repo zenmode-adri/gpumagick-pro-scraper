@@ -1,5 +1,6 @@
 import re
 import logging
+from datetime import datetime
 from typing import Optional, Dict, Any
 from .models import GpuScore
 
@@ -8,6 +9,19 @@ class GpuMagickParser:
         r'(FurMark(?:\s+\w+)*\s*\((?:GL|VK)\))',
         re.IGNORECASE
     )
+
+    @classmethod
+    def parse_date(cls, date_str: str) -> datetime:
+        """Convierte 'Apr 28, 2026 @ 15:46:19' en objeto datetime."""
+        if not date_str:
+            return datetime.utcnow()
+        try:
+            # Ejemplo: "Apr 28, 2026 @ 15:46:19"
+            clean_date = date_str.strip()
+            return datetime.strptime(clean_date, "%b %d, %Y @ %H:%M:%S")
+        except Exception as e:
+            logging.warning(f"No se pudo parsear fecha '{date_str}': {e}")
+            return datetime.utcnow()
 
     @classmethod
     def extract_field(cls, html: str, label: str) -> str:
@@ -77,7 +91,7 @@ class GpuMagickParser:
             cpu=cls.extract_field(html, "CPU"),
             os=cls.extract_field(html, "Operating system"),
             driver=cls.extract_field(html, "graphics driver"),
-            submitted_date=submitted_date,
+            submitted_date=cls.parse_date(submitted_date),
             benchmark_type=cls.detect_benchmark_type(html),
             url=f"https://gpumagick.com/scores/{score_id}"
         )

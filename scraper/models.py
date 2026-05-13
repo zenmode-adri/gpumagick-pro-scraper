@@ -7,7 +7,7 @@ class GpuScore(SQLModel, table=True):
     
     score_id: str = Field(primary_key=True)
     benchmark_type: str
-    submitted_date: str
+    submitted_date: datetime
     cpu: str
     gpu: str
     gpu_raw: str
