@@ -49,6 +49,16 @@ class GpuMagickParser:
             m = re.search(r"(\d+)", duration_str)
             if m: duration_ms = int(m.group(1))
 
+        # Gruk caza la fecha en el encabezado porque no está en la tabla
+        # Ejemplo: Submitted by anonymous on Apr 28, 2026 @ 15:46:19
+        submitted_date = ""
+        m_date = re.search(r"Submitted by .*? on (.*? @ .*?)</th>", html, re.IGNORECASE | re.DOTALL)
+        if m_date:
+            submitted_date = m_date.group(1).strip()
+        else:
+            # Plan B por si acaso
+            submitted_date = cls.extract_field(html, "Submitted")
+
         try:
             score_val = int(cls.extract_field(html, "SCORE") or 0)
             fps_val = float(cls.extract_field(html, "FPS") or 0.0)
@@ -67,7 +77,7 @@ class GpuMagickParser:
             cpu=cls.extract_field(html, "CPU"),
             os=cls.extract_field(html, "Operating system"),
             driver=cls.extract_field(html, "graphics driver"),
-            submitted_date=cls.extract_field(html, "Submitted"),
+            submitted_date=submitted_date,
             benchmark_type=cls.detect_benchmark_type(html),
             url=f"https://gpumagick.com/scores/{score_id}"
         )
