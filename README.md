@@ -8,9 +8,9 @@
 ## 🇺🇸 English Version
 
 ### 🎯 The Goal: Finding the best Price/Performance combo
-This project was born from a simple question: **What is the best CPU and GPU combo for the price?** Instead of relying on old reviews or guessing, I built this tool to collect real data from thousands of benchmark pages on GPUMagick and compare it with current market prices.
+This project was born from a simple question: **What is the best CPU and GPU combo for the price?** I wanted to have my own dataset to analyze because the GPUMagick website only shows the last 100 submissions in its public view, which makes it difficult to see long-term trends or compare less common hardware.
 
-I chose FurMark as the main data source because it's the most consistent and widely available on the site. I'm aware it's a heavily **GPU-bound** benchmark and might not be the most "realistic" for gaming, but it serves as a solid baseline for comparing how different CPUs affect a specific GPU's performance.
+I built this tool to collect data from thousands of pages to build a more comprehensive personal database. I chose FurMark as the main data source because it's the most consistent and widely available on the site. I'm aware it's a heavily **GPU-bound** benchmark, but it serves as a solid baseline for comparing how different CPUs affect a specific GPU's performance.
 
 ### 🛠️ What’s under the hood?
 - **Fast Data Collection:** Uses `asyncio` and `aiohttp` to grab data efficiently.
@@ -35,9 +35,9 @@ I chose FurMark as the main data source because it's the most consistent and wid
 ## 🇪🇸 Versión en Español
 
 ### 🎯 El Objetivo: Encontrar el mejor combo Calidad/Precio
-Este proyecto nació de una pregunta sencilla: **¿Cuál es el mejor combo de procesador y gráfica por su precio?** En lugar de adivinar o mirar reviews antiguas, creé esta herramienta para recoger datos de miles de páginas de GPUMagick y compararlos con los precios actuales del mercado.
+Este proyecto nació de una pregunta sencilla: **¿Cuál es el mejor combo de procesador y gráfica por su precio?** Quería tener mis propios datos para analizar porque la web de GPUMagick solo muestra los últimos 100 resultados en su vista pública, lo que hace difícil ver tendencias a largo plazo o comparar hardware menos común.
 
-Elegí FurMark como fuente principal porque es el dato más común y consistente en la web. Soy consciente de que es un benchmark muy **GPU-bound** (depende casi todo de la gráfica) y quizá no es el más "realista" para juegos, pero me sirve como una base sólida para comparar cómo diferentes CPUs afectan al rendimiento de una misma GPU.
+Creé esta herramienta para recoger datos de miles de páginas y construir una base de datos personal más completa. Elegí FurMark como fuente principal porque es el dato más común y consistente en la web. Soy consciente de que es un benchmark muy **GPU-bound**, pero me sirve como una base sólida para comparar cómo diferentes CPUs afectan al rendimiento de una misma GPU.
 
 ### 🛠️ ¿Qué hay detrás de esto?
 - **Extracción Eficiente:** Usa `asyncio` para recoger datos de forma rápida y organizada.
