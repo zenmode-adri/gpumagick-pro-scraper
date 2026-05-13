@@ -1,71 +1,70 @@
-import aiosqlite
-import logging
-from typing import List, Optional, Set
+from typing import List, Set
+from sqlalchemy.ext.asyncio import create_async_engine
+from sqlalchemy.orm import sessionmaker
+from sqlmodel import select
+from sqlmodel.ext.asyncio.session import AsyncSession
 from .models import GpuScore
 
 class DatabaseManager:
     def __init__(self, db_path: str):
-        self.db_path = db_path
+        self.engine = create_async_engine(f"sqlite+aiosqlite:///{db_path}")
+        self.async_session = sessionmaker(
+            self.engine, class_=AsyncSession, expire_on_commit=False
+        )
 
     async def initialize(self):
-        async with aiosqlite.connect(self.db_path) as db:
-            await db.execute("""
-                CREATE TABLE IF NOT EXISTS scores (
-                    score_id TEXT PRIMARY KEY,
-                    benchmark_type TEXT,
-                    submitted_date TEXT,
-                    cpu TEXT,
-                    gpu TEXT,
-                    gpu_raw TEXT,
-                    score INTEGER,
-                    fps REAL,
-                    resolution TEXT,
-                    duration_ms INTEGER,
-                    os TEXT,
-                    driver TEXT,
-                    url TEXT,
-                    scraped_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        async with self.engine.begin() as conn:
+            await conn.run_sync(GpuScore.metadata.create_all)
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS checkpoints_v2 (
+                    filter_key TEXT PRIMARY KEY,
+                    min_id INTEGER,
+                    max_id INTEGER,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 )
             """)
-            await db.commit()
+
+    async def save_checkpoint(self, filter_key: str, min_id: int, max_id: int):
+        async with self.async_session() as session:
+            # Actualizar el rango existente: expandir si los nuevos límites son más amplios
+            await session.execute("""
+                INSERT INTO checkpoints_v2 (filter_key, min_id, max_id, updated_at)
+                VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+                ON CONFLICT(filter_key) DO UPDATE SET
+                    min_id = MIN(checkpoints_v2.min_id, excluded.min_id),
+                    max_id = MAX(checkpoints_v2.max_id, excluded.max_id),
+                    updated_at = CURRENT_TIMESTAMP
+            """, (filter_key, min_id, max_id))
+            await session.commit()
+
+    async def get_checkpoint_range(self, filter_key: str) -> Optional[tuple]:
+        try:
+            async with self.async_session() as session:
+                result = await session.execute(
+                    "SELECT min_id, max_id FROM checkpoints_v2 WHERE filter_key = ?", (filter_key,)
+                )
+                return result.fetchone()
+        except Exception:
+            return None
 
     async def save_score(self, score: GpuScore):
-        async with aiosqlite.connect(self.db_path) as db:
-            await db.execute("""
-                INSERT OR REPLACE INTO scores
-                (score_id, benchmark_type, submitted_date, cpu, gpu, gpu_raw,
-                 score, fps, resolution, duration_ms, os, driver, url)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """, (
-                score.score_id, score.benchmark_type, score.submitted_date,
-                score.cpu, score.gpu, score.gpu_raw, score.score, score.fps,
-                score.resolution, score.duration_ms, score.os, score.driver, score.url
-            ))
-            await db.commit()
+        async with self.async_session() as session:
+            await session.merge(score)
+            await session.commit()
 
     async def save_scores_batch(self, scores: List[GpuScore]):
-        if not scores:
-            return
-        async with aiosqlite.connect(self.db_path) as db:
-            await db.executemany("""
-                INSERT OR REPLACE INTO scores
-                (score_id, benchmark_type, submitted_date, cpu, gpu, gpu_raw,
-                 score, fps, resolution, duration_ms, os, driver, url)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """, [
-                (s.score_id, s.benchmark_type, s.submitted_date,
-                 s.cpu, s.gpu, s.gpu_raw, s.score, s.fps,
-                 s.resolution, s.duration_ms, s.os, s.driver, s.url)
-                for s in scores
-            ])
-            await db.commit()
+        if not scores: return
+        async with self.async_session() as session:
+            for s in scores:
+                await session.merge(s)
+            await session.commit()
 
     async def get_seen_ids(self) -> Set[int]:
         try:
-            async with aiosqlite.connect(self.db_path) as db:
-                async with db.execute("SELECT score_id FROM scores") as cursor:
-                    rows = await cursor.fetchall()
-                    return {int(r[0]) for r in rows}
-        except Exception as e:
-            logging.warning(f"No se pudieron cargar IDs de SQLite: {e}")
+            async with self.async_session() as session:
+                statement = select(GpuScore.score_id)
+                results = await session.execute(statement)
+                # results.all() returns list of rows (tuples)
+                return {int(r[0]) for r in results.all()}
+        except Exception:
             return set()
