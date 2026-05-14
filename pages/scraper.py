@@ -53,7 +53,7 @@ def show():
                 st.warning(t("ethics_warn"), icon="⚠️")
 
         st.markdown('<div style="height:0.5rem"></div>', unsafe_allow_html=True)
-        _, btn_col = st.columns([4, 1])
+        _, btn_col = st.columns([2, 1])
         with btn_col:
             if is_running:
                 if st.button(t("stop"), use_container_width=True, key="btn_stop", type="primary"):
