@@ -50,11 +50,11 @@ def show():
 
         if not sel_gpus:
             with st.container(border=True):
-                st.markdown('<div class="empty-state"><div class="empty-icon">◈</div><div class="empty-title">Selecciona una o más GPUs</div><div class="empty-sub">Elige las GPUs que quieres comparar</div></div>', unsafe_allow_html=True)
+                st.markdown(f'<div class="empty-state"><div class="empty-icon">◈</div><div class="empty-title">{t("select_gpus_title")}</div><div class="empty-sub">{t("select_gpus_sub")}</div></div>', unsafe_allow_html=True)
         else:
             fdf = df[df["gpu_short"].isin(sel_gpus) & df["benchmark_type"].isin(sel_bench if sel_bench else all_bench) & df["resolution"].isin(sel_res if sel_res else all_res)]
             if fdf.empty:
-                st.warning("No hay datos para los filtros actuales.")
+                st.warning(t("no_data_filters"))
             else:
                 with st.container(border=True):
                     m1, m2, m3, m4 = st.columns(4)
@@ -77,7 +77,7 @@ def show():
                     with gcol:
                         with st.container(border=True):
                             top20 = stats.head(20).iloc[::-1].reset_index(drop=True)
-                            fig = make_bar(top20, "Median", "CPU", [[0, "#0a2e18"], [1, "#4ade80"]], height=420)
+                            fig = make_bar(top20, "Median", "CPU", height=420)
                             st.plotly_chart(fig, use_container_width=True)
                 else:
                     pivot_raw = cpu_gpu.pivot_table(index="cpu", columns="gpu_short", values="Median", aggfunc="first").round(0).reset_index().rename(columns={"cpu": "CPU"})

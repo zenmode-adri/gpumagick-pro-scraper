@@ -1,5 +1,6 @@
 import streamlit as st
 import json
+import subprocess
 import time
 import os
 import psutil
@@ -23,7 +24,7 @@ def is_engine_running():
             if pid and psutil.pid_exists(pid):
                 if "python" in psutil.Process(pid).name().lower():
                     return True
-        except:
+        except (json.JSONDecodeError, OSError, psutil.Error):
             pass
     return False
 
@@ -64,7 +65,7 @@ def show():
                             if pid and psutil.pid_exists(pid): psutil.Process(pid).terminate()
                             s["status"] = "stopped"
                             with open(STATUS_FILE, "w") as f: json.dump(s, f)
-                        except: pass
+                        except (json.JSONDecodeError, OSError, psutil.Error): pass
                     st.rerun()
             else:
                 if st.button(t("execute"), use_container_width=True, key="btn_start", type="primary"):
@@ -74,7 +75,6 @@ def show():
                     if gpus: cmd += ["--gpu-filter"] + gpus
                     if bench_t: cmd += ["--benchmark-types"] + bench_t
                     
-                    import subprocess
                     subprocess.Popen(cmd, stdout=open("scraper.log", "w", encoding="utf-8"), stderr=subprocess.STDOUT, env={**os.environ, "PYTHONIOENCODING": "utf-8"})
                     st.toast(f"Scraper started ({len(gpus)} GPUs)")
                     time.sleep(0.5); st.rerun()
@@ -101,7 +101,7 @@ def show():
             try:
                 with open(STATUS_FILE, encoding="utf-8") as f: stats = json.load(f)
                 break
-            except: time.sleep(0.1)
+            except (json.JSONDecodeError, OSError): time.sleep(0.1)
         if not stats: return
 
         remaining = stats['total_ids'] - stats['checked']
@@ -132,7 +132,7 @@ def show():
             elif "crashed" in status:
                 st.error(f"Crash: {status}")
                 if "circuit breaker" in status.lower():
-                    st.warning("⚠️ El servidor ha bloqueado temporalmente las peticiones (429). El scraper se detuvo para proteger tu IP. Aumenta el delay o reduce los hilos.", icon="🛑")
+                    st.warning(t("circuit_breaker_warn"), icon="🛑")
 
         df_live = load_data()
         if not df_live.empty:
@@ -150,7 +150,7 @@ def show():
                     top_cpus = df_live["cpu"].value_counts().head(15).reset_index()
                     top_cpus.columns = ["CPU", "count"]
                     top_cpus = top_cpus.iloc[::-1].reset_index(drop=True)
-                    fig_c = make_bar(top_cpus, "count", "CPU", [[0, "#0d3320"], [1, "#4ade80"]], height=max(260, len(top_cpus) * 26))
+                    fig_c = make_bar(top_cpus, "count", "CPU", height=max(260, len(top_cpus) * 26))
                     st.plotly_chart(fig_c, use_container_width=True, config={"displayModeBar": False})
 
     with col_left: _scraper_status()
@@ -170,7 +170,7 @@ def show():
                 try:
                     log_text = Path("scraper.log").read_text(encoding="utf-8", errors="replace")
                     st.code(log_text[-5000:], language="")
-                except: st.caption("Cannot read log")
+                except OSError: st.caption("Cannot read log")
 
 if __name__ == "__main__":
     show()

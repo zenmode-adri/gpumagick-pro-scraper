@@ -1,10 +1,8 @@
 import pandas as pd
-import sqlite3
 import duckdb
 import re
 from pathlib import Path
-
-DB_PATH = "gpumagick.db"
+from utils.ui import DB_PATH
 
 def load_data():
     if not Path(DB_PATH).exists():

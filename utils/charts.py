@@ -1,11 +1,13 @@
 import plotly.express as px
 
-def make_bar(df, x, y, color_scale, text_fmt="%{text:,.0f}", height=400):
+BAR_COLOR_SCALE = [[0, "#0d3320"], [1, "#4ade80"]]
+
+def make_bar(df, x, y, color_scale=None, height=400):
     fig = px.bar(df, x=x, y=y, orientation="h",
                  template="plotly_dark", color=x,
-                 color_continuous_scale=color_scale, text=x)
+                 color_continuous_scale=color_scale or BAR_COLOR_SCALE, text=x)
     fig.update_traces(
-        texttemplate=text_fmt, textposition="outside",
+        texttemplate="%{text:,.0f}", textposition="outside",
         textfont=dict(family="JetBrains Mono", size=11, color="#ddddf0"),
         marker_line_width=0,
     )
