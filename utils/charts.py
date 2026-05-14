@@ -1,13 +1,14 @@
 import plotly.express as px
 
 BAR_COLOR_SCALE = [[0, "#0d3320"], [1, "#4ade80"]]
+MULTI_GPU_COLORS = ["#4ade80", "#60a5fa", "#f472b6", "#fb923c", "#a78bfa", "#34d399"]
 
-def make_bar(df, x, y, color_scale=None, height=400):
+def make_bar(df, x, y, color_scale=None, text_fmt="%{text:,.0f}", height=400):
     fig = px.bar(df, x=x, y=y, orientation="h",
                  template="plotly_dark", color=x,
                  color_continuous_scale=color_scale or BAR_COLOR_SCALE, text=x)
     fig.update_traces(
-        texttemplate="%{text:,.0f}", textposition="outside",
+        texttemplate=text_fmt, textposition="outside",
         textfont=dict(family="JetBrains Mono", size=11, color="#ddddf0"),
         marker_line_width=0,
     )
@@ -21,3 +22,4 @@ def make_bar(df, x, y, color_scale=None, height=400):
         yaxis=dict(showgrid=False, tickfont=dict(size=11, family="Inter")),
     )
     return fig
+

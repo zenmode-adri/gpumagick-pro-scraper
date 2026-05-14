@@ -1,6 +1,10 @@
 import streamlit as st
 import json
+import logging
 from pathlib import Path
+
+TIER_TOP  = 0.97
+TIER_HIGH = 0.92
 
 STATUS_FILE = "status.json"
 DB_PATH = "gpumagick.db"
@@ -27,8 +31,12 @@ def load_cpu_prices():
         "Core i7-4770": 40, "Xeon E5-2667 v2": 25,
     }
     if Path(CPU_PRICES_FILE).exists():
-        with open(CPU_PRICES_FILE, encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(CPU_PRICES_FILE, encoding="utf-8") as f:
+                return json.load(f)
+        except json.JSONDecodeError as e:
+            st.warning(f"cpu_prices.json corrupted ({e}). Using defaults.")
+            logging.error(f"cpu_prices.json decode error: {e}")
     return default_prices
 
 def save_cpu_prices(d):
@@ -59,6 +67,11 @@ T = {
         "median_by_cpu": "Median score by CPU",
         "median_by_gpu": "Median score by GPU",
         "no_data": "No data available", "no_data_sub": "Run the scraper first, or import a .db / .csv file above",
+        "quick_eval": "Quick Evaluate", "select_cpu_eval": "Select a CPU to check its value in Builds",
+        "eval_value": "Evaluate Value",
+        "gpu_cfg": "GPU Configuration", "perf_metrics": "Performance Metrics",
+        "action_center": "Action Center", "add_to_ranking": "Add to ranking",
+        "full_breakdown": "Full Breakdown", "market_val": "Market Value (€)",
         "gpu_price": "GPU Market Price (€)", "cpu_prices": "CPU Market Prices",
         "save_prices": "Save Prices",
         "top_cpus": "Top CPUs", "score_dist": "Score Distribution",
@@ -94,6 +107,11 @@ T = {
         "median_score": "Puntuación media", "sort_by": "Ordenar por", "cpu_table": "Tabla de CPUs",
         "median_by_cpu": "Puntuación media por CPU", "median_by_gpu": "Puntuación media por GPU",
         "no_data": "Sin datos disponibles", "no_data_sub": "Lanza el extractor primero o importa un archivo .db / .csv",
+        "quick_eval": "Evaluación Rápida", "select_cpu_eval": "Selecciona un CPU para ver su valor en Ensambles",
+        "eval_value": "Evaluar Valor",
+        "gpu_cfg": "Configuración de GPU", "perf_metrics": "Métricas de Rendimiento",
+        "action_center": "Centro de Acción", "add_to_ranking": "Añadir al ranking",
+        "full_breakdown": "Desglose Completo", "market_val": "Valor de Mercado (€)",
         "gpu_price": "Precio de Mercado GPU (€)", "cpu_prices": "Precios de Mercado CPU",
         "save_prices": "Guardar Precios",
         "top_cpus": "Top CPUs", "score_dist": "Distribución de Puntos",
@@ -112,4 +130,8 @@ T = {
 
 def t(key):
     lang = st.session_state.get("lang", "EN")
-    return T[lang].get(key, key)
+    val = T[lang].get(key)
+    if val is None:
+        logging.warning(f"Missing i18n key '{key}' for lang '{lang}'")
+        return key
+    return val

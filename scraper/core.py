@@ -49,8 +49,7 @@ class ScraperOrchestrator:
                 self.stats["speed"] = self.stats["checked"] / elapsed if elapsed > 0 else 0
                 self.stats["pid"] = os.getpid()
                 json.dump(self.stats, f)
-            if os.path.exists(self.status_file): os.remove(self.status_file)
-            os.rename(temp_file, self.status_file)
+            os.replace(temp_file, self.status_file)
         except Exception as e:
             logging.error(f"Error guardando status: {e}")
 
@@ -93,7 +92,7 @@ class ScraperOrchestrator:
                 if self.stats["checked"] % 5 == 0:
                     self._save_status()
             except Exception as e:
-                logging.error(f"Error en worker para ID {score_id}: {e}")
+                logging.error(f"Error en worker para ID {score_id}: {e}", exc_info=True)
             finally:
                 queue.task_done()
 

@@ -3,7 +3,9 @@ pandas
 plotly
 aiohttp
 aiosqlite
+sqlalchemy[asyncio]
 psutil
 sqlmodel
 duckdb
 selectolax
+filelock

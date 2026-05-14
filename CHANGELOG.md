@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.1.0] - 2026-05-14
+
+### ⚡ Rendimiento
+- **Cache de datos:** `load_data()` ahora usa `@st.cache_data(ttl=30)` — elimina reconsultas a la DB en cada render de Streamlit.
+- **Eliminado DuckDB como capa intermedia:** Reemplazado por `sqlite3` directo. DuckDB no aportaba beneficio con `SELECT *` sin agregaciones en SQL.
+- **Índices de base de datos:** Añadidos índices en `gpu+benchmark_type`, `cpu` y `resolution` para queries rápidas con datasets grandes.
+- **WAL mode activado:** `PRAGMA journal_mode=WAL` en la inicialización de la DB — el scraper y Streamlit ya no se bloquean entre sí al acceder simultáneamente.
+
+### 🔒 Seguridad y Robustez
+- **Escritura atómica real de status.json:** Reemplazado `os.remove + os.rename` por `os.replace()` — atómico en Windows, elimina la race condition.
+- **Validación de valores parseados:** Score negativo → 0, FPS fuera de rango (>50.000 o <0) → 0.0, CPU vacío → registro descartado con log.
+- **Precio GPU por defecto eliminado:** El valor por defecto de 80 € ha sido reemplazado por 0. GPUs sin precio explícito quedan excluidas del ranking FPS/€.
+- **Filtro doble en ranking:** Ahora se requiere `cpu_price > 0` **y** `gpu_price > 0` para aparecer en el ranking de builds.
+
+### 🧹 Calidad de Código
+- **Constantes de tier extraídas:** `TIER_TOP = 0.97` y `TIER_HIGH = 0.92` definidas en `utils/ui.py` e importadas en `pages/analysis.py`.
+- **`make_grouped_bar()` eliminada:** Función sin uso removida de `utils/charts.py`.
+- **Errores silenciosos corregidos:** `get_seen_ids()` y workers ahora loguean excepciones con `exc_info=True`.
+- **`load_cpu_prices()` robusta:** Muestra `st.warning` si `cpu_prices.json` está corrupto en lugar de fallar silenciosamente.
+- **`t()` con log de claves ausentes:** Claves de traducción faltantes ahora se registran en el log.
+- **`jump_cpu` documentado:** Comentario añadido en `pages/builds.py` explicando el origen del valor desde `pages/analysis.py`.
+
+### 🛠️ DX
+- **`requirements.txt` corregido:** Añadidos `sqlalchemy[asyncio]` y `filelock` que faltaban.
+- **`.gitignore` actualizado:** Añadidos patrones `*.tmp.*` y `status.json.lock`.
+
 ## [3.0.0] - 2026-05-13
 
 ### 🧱 Arquitectura y Refactorización

@@ -73,11 +73,21 @@ class GpuMagickParser:
             m = re.search(r"(\d+)", duration_str)
             if m: duration_ms = int(m.group(1))
 
+        cpu_val = data.get("CPU", "").strip()
+        if not cpu_val:
+            logging.warning(f"Missing CPU field for score_id {score_id}, skipping")
+            return None
+
         try:
             score_val = int(data.get("SCORE") or 0)
             fps_val = float(data.get("FPS") or 0.0)
         except ValueError:
             score_val = 0
+            fps_val = 0.0
+
+        if score_val < 0:
+            score_val = 0
+        if fps_val < 0 or fps_val > 50000:
             fps_val = 0.0
 
         return GpuScore(
@@ -88,7 +98,7 @@ class GpuMagickParser:
             gpu_raw=gpu_raw,
             resolution=data.get("RESOLUTION", ""),
             duration_ms=duration_ms,
-            cpu=data.get("CPU", ""),
+            cpu=cpu_val,
             os=data.get("OPERATING SYSTEM", ""),
             driver=data.get("GRAPHICS DRIVER", ""),
             submitted_date=cls.parse_date(data.get("submitted_date", "")),

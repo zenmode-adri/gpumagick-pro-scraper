@@ -23,6 +23,10 @@ gpumagick.db
 # Logs and status
 *.log
 status.json
+status.json.lock
+
+# Temp files from editors / Claude Code
+*.tmp.*
 
 # Screenshots
 shot_*.png

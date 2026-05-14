@@ -80,7 +80,7 @@ class AsyncHttpClient:
                     return None, status
             except Exception as e:
                 self.consecutive_errors += 1
-                logging.error(f"Error en {url}: {e}")
+                logging.error(f"Error en {url}: {e}", exc_info=True)
                 if self.consecutive_errors >= 20:
                     self.circuit_broken = True
                 return None, 0

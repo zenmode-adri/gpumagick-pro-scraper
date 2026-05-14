@@ -1,19 +1,16 @@
+import streamlit as st
 import pandas as pd
-import duckdb
+import sqlite3
 import re
 from pathlib import Path
 from utils.ui import DB_PATH
 
+@st.cache_data(ttl=30)
 def load_data():
     if not Path(DB_PATH).exists():
         return pd.DataFrame()
-    
-    con = duckdb.connect(database=':memory:')
-    con.execute("INSTALL sqlite;")
-    con.execute("LOAD sqlite;")
-    con.execute(f"CALL sqlite_attach('{DB_PATH}');")
-    
-    df = con.execute("SELECT * FROM scores").df()
+    con = sqlite3.connect(DB_PATH)
+    df = pd.read_sql_query("SELECT * FROM scores", con)
     con.close()
     return df
 
